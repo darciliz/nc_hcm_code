@@ -1,0 +1,232 @@
+id,name,group,updown
+M146T1_14,Spermidine,Not Gender Specific,CONV-R Enriched
+M151T5_2,4-Hydroxyphenylacetate,Not Gender Specific,CONV-R Enriched
+M153T5,"2,3-Dihydroxybenzoate",Not Gender Specific,CONV-R Enriched
+M165T6_2,DL-3-Phenyllactate,Not Gender Specific,CONV-R Enriched
+M173T4_2,Phenyl sulfate,Not Gender Specific,CONV-R Enriched
+M177T4_3,"3,3'-Thiobispropanoate",Not Gender Specific,CONV-R Enriched
+M180T5_4,Hippurate,Not Gender Specific,CONV-R Enriched
+M188T7,Indole-3-acrylate,Not Gender Specific,CONV-R Enriched
+M190T7_2,Indole-3-propionate,Not Gender Specific,CONV-R Enriched
+M190T7_4,Methyl indole-3-acetate,Not Gender Specific,CONV-R Enriched
+M194T5_2,N-(2-Phenylacetyl)glycine,Not Gender Specific,CONV-R Enriched
+M212T5,Indoxyl sulfate,Not Gender Specific,CONV-R Enriched
+M231T4_1,Vanillin 4-sulfate,Not Gender Specific,CONV-R Enriched
+M263T5_3,Phenylacetyl L-glutamine,Not Gender Specific,CONV-R Enriched
+M276T4_3,_-Anthropyranose,Not Gender Specific,CONV-R Enriched
+M391T8_4,Chenodeoxycholate ,Not Gender Specific,CONV-R Enriched
+M76T1_2,Trimethylamine N-oxide (TMAO),Not Gender Specific,CONV-R Enriched
+M114T1_7,Creatinine,Female Only,CONV-R Enriched
+M119T1_6,"(S)-3,4-Dihydroxybutyrate",Female Only,CONV-R Enriched
+M141T1_8,1-Methyl-4-imidazoleacetate,Female Only,CONV-R Enriched
+M143T1_10,Ectoine,Female Only,CONV-R Enriched
+M146T6_2,Indole-3-carboxaldehyde,Female Only,CONV-R Enriched
+M150T1_8,L-Methionine,Female Only,CONV-R Enriched
+M162T2_2,N-Acetyl-L-cysteine,Female Only,CONV-R Enriched
+M176T1_14,Citrulline,Female Only,CONV-R Enriched
+M179T5_2,Caffeate,Female Only,CONV-R Enriched
+M195T6_2,Ferulate,Female Only,CONV-R Enriched
+M206T6_2,Indolelactate,Female Only,CONV-R Enriched
+M350T8,Sphingosine 1-phosphate (d16:1-P),Female Only,CONV-R Enriched
+M458T9,Acetolein,Female Only,CONV-R Enriched
+M712T8,"PE(16:1(9Z)/18:3(9Z,12Z,15Z))",Female Only,CONV-R Enriched
+M749T9_1,"PE(18:0/20:4(5Z,8Z,11Z,13E)(15OH[S]))",Female Only,CONV-R Enriched
+M90T1_3,Sarcosine,Female Only,CONV-R Enriched
+M129T1_9,Pyroglutamine,Male Only,CONV-R Enriched
+M135T1_9,L-Malate,Male Only,CONV-R Enriched
+M137T6_2,Salicylate,Male Only,CONV-R Enriched
+M162T1_8,L-Carnitine,Male Only,CONV-R Enriched
+M162T6_3,"2,4-Quinolinediol",Male Only,CONV-R Enriched
+M175T1_10,L-Arginine,Male Only,CONV-R Enriched
+M220T4_2,D-(+)-Pantothenate,Male Only,CONV-R Enriched
+M232T4_4,Butyrylcarnitine,Male Only,CONV-R Enriched
+M258T1_3,Glycerophosphocholine,Male Only,CONV-R Enriched
+M425T1_5,Cysteineglutathione disulfide,Male Only,CONV-R Enriched
+M427T1_2,L-Cysteine-glutathione disulfide,Male Only,CONV-R Enriched
+M103T1_5,3-Hydroxybutyrate,Not Gender Specific,GF Enriched
+M105T1_6,(S)-3-Hydroxyisobutyrate,Not Gender Specific,GF Enriched
+M113T4,"2,3-Hexanedione",Not Gender Specific,GF Enriched
+M116T1_5,L-2-Amino-3-oxobutanoate,Not Gender Specific,GF Enriched
+M120T6_2,Indoline,Not Gender Specific,GF Enriched
+M123T5_5,4-Ethylphenol,Not Gender Specific,GF Enriched
+M125T4_1,5-Methylfuran-2-carboxylate,Not Gender Specific,GF Enriched
+M130T1_5,N-Acetyl-L-alanine,Not Gender Specific,GF Enriched
+M131T2_1,Glutarate,Not Gender Specific,GF Enriched
+M131T7_2,Heptanoate,Not Gender Specific,GF Enriched
+M137T5_2,Phenylacetate,Not Gender Specific,GF Enriched
+M141T5_4,"2-Propyl-2,4-pentadienoate",Not Gender Specific,GF Enriched
+M141T6,4-Ene-valproate,Not Gender Specific,GF Enriched
+M142T3,Vinylacetylglycine,Not Gender Specific,GF Enriched
+M143T1_12,N-(3-Aminopropyl)-2-pyrrolidinone,Not Gender Specific,GF Enriched
+M153T1_5,Diethylphosphate,Not Gender Specific,GF Enriched
+M155T5_9,2-Furanylmethyl propanoate,Not Gender Specific,GF Enriched
+M156T4,3-Methylcrotonyl glycine,Not Gender Specific,GF Enriched
+M158T4_2,N-(2-Methylbutyryl)glycine,Not Gender Specific,GF Enriched
+M160T1_7,Aminoadipate,Not Gender Specific,GF Enriched
+M161T6_4,6-Methylcoumarin,Not Gender Specific,GF Enriched
+M162T1_7,Pyrroline hydroxycarboxylate,Not Gender Specific,GF Enriched
+M170T5,N-Butyryl-L-homoserine lactone,Not Gender Specific,GF Enriched
+M173T5_2,cis-4-Octenedioate,Not Gender Specific,GF Enriched
+M174T6_5,Hexanoylglycine,Not Gender Specific,GF Enriched
+M175T3_1,2-Isopropylmalate,Not Gender Specific,GF Enriched
+M179T1_8,2-O-Methyl-L-fucose,Not Gender Specific,GF Enriched
+M191T1_8,D-(-)-Quinate,Not Gender Specific,GF Enriched
+M201T6_4,Senecioate,Not Gender Specific,GF Enriched
+M202T7_3,Capryloylglycine,Not Gender Specific,GF Enriched
+M209T3_2,Kynurenine,Not Gender Specific,GF Enriched
+M221T5_1,Dihydrodaidzein,Not Gender Specific,GF Enriched
+M228T8,N-Decanoylglycine,Not Gender Specific,GF Enriched
+M229T3,Hydroxyprolyl-Valine,Not Gender Specific,GF Enriched
+M229T7_5,Dodecanedioate,Not Gender Specific,GF Enriched
+M230T5_2,Suberylglycine,Not Gender Specific,GF Enriched
+M233T2_3,N2-Succinyl-L-ornithine,Not Gender Specific,GF Enriched
+M242T6_2,Tiglylcarnitine,Not Gender Specific,GF Enriched
+M248T4_2,Histidinyl-Glutamine,Not Gender Specific,GF Enriched
+M249T4_3,Porphobilinogen,Not Gender Specific,GF Enriched
+M265T2_1,N-Acetylcystathionine,Not Gender Specific,GF Enriched
+M274T5_2,L-Thyronine,Not Gender Specific,GF Enriched
+M281T4_2,Aspartylphenylalanine,Not Gender Specific,GF Enriched
+M284T9_1,N-Dodecanoyl-L-homoserine lactone,Not Gender Specific,GF Enriched
+M297T3,Tyrosyl-Aspartate,Not Gender Specific,GF Enriched
+M301T9,Eicosapentaenoate,Not Gender Specific,GF Enriched
+M311T1_5,_-Glutamyltyrosine,Not Gender Specific,GF Enriched
+M317T8_2,(S)-_-Terpinyl glucoside,Not Gender Specific,GF Enriched
+M319T8_2,Leukotriene A4,Not Gender Specific,GF Enriched
+M319T9_5,12-HETE,Not Gender Specific,GF Enriched
+M344T8_1,Dodecanoylcarnitine,Not Gender Specific,GF Enriched
+M347T7_3,Corticosterone,Not Gender Specific,GF Enriched
+M349T7_3,"17_,21-Dihydroxypregnenolone",Not Gender Specific,GF Enriched
+M361T7_3,Cortisol,Not Gender Specific,GF Enriched
+M368T8_2,"3, 5-Tetradecadiencarnitine",Not Gender Specific,GF Enriched
+M370T8_1,trans-2-Tetradecenoylcarnitine,Not Gender Specific,GF Enriched
+M385T1_4,S-(5'-Adenosyl)-L-homocysteine (SAH),Not Gender Specific,GF Enriched
+M400T8_4,Palmitoyl-L-carnitine,Not Gender Specific,GF Enriched
+M401T8_2,5S-HETE di-endoperoxide,Not Gender Specific,GF Enriched
+M424T8_2,Linoelaidyl carnitine,Not Gender Specific,GF Enriched
+M428T8_3,Stearoylcarnitine,Not Gender Specific,GF Enriched
+M452T8_2,"(11Z,14Z)-Eicosadienoylcarnitine",Not Gender Specific,GF Enriched
+M461T7_2,6-Dehydrotestosterone glucuronide,Not Gender Specific,GF Enriched
+M474T6_2,Sulfolithocholate,Not Gender Specific,GF Enriched
+M815T9,"PS(16:0/22:2(13Z,16Z))",Not Gender Specific,GF Enriched
+M87T1_5,Erythritol,Not Gender Specific,GF Enriched
+M103T2,2-Hydroxybutyrate,Female Only,GF Enriched
+M104T1_5,_-Aminobutyrate (GABA),Female Only,GF Enriched
+M118T1_9,L-Valine,Female Only,GF Enriched
+M123T1_9,Nicotinamide,Female Only,GF Enriched
+M130T1_7,Creatine,Female Only,GF Enriched
+M130T2,L-Leucine,Female Only,GF Enriched
+M133T1_8,3-Ureidopropionate,Female Only,GF Enriched
+M145T1_7,_-Ketoglutarate,Female Only,GF Enriched
+M161T1_14,N(6)-Methyllysine,Female Only,GF Enriched
+M164T2_4,Dihydro-2-methoxy-2-methyl-3(2H)-thiophenone,Female Only,GF Enriched
+M166T1_4,Homocysteinesulfinate,Female Only,GF Enriched
+M174T2_2,(2S)-6-Amino-2-formamidohexanamide,Female Only,GF Enriched
+M177T4_4,Butyrate,Female Only,GF Enriched
+M189T1_6,N_-Acetyl-lysine,Female Only,GF Enriched
+M192T5_1,"5,6-Dihydroxyindole-2-carboxylate (DHICA)",Female Only,GF Enriched
+M201T6_5,cis-5-Decenedioate,Female Only,GF Enriched
+M203T5_4,2-Hydroxy-7-methyloctanedioate,Female Only,GF Enriched
+M213T8_2,3-Oxododecanoate,Female Only,GF Enriched
+M233T6_5,"1,2-Dibutyrin",Female Only,GF Enriched
+M239T8_3,L-Menthyl acetoacetate,Female Only,GF Enriched
+M241T9_2,3-Oxotetradecanoate,Female Only,GF Enriched
+M242T8_3,N-Nonanoyl-L-homoserine lactone,Female Only,GF Enriched
+M243T5_4,Biotin,Female Only,GF Enriched
+M247T4_5,Histidylproline diketopiperazine,Female Only,GF Enriched
+M253T8_6,Palmitoleate,Female Only,GF Enriched
+M259T4_4,_-Glutamylleucine,Female Only,GF Enriched
+M259T8_2,Tetradecanedioate,Female Only,GF Enriched
+M267T9,"(1R,2R)-3-Oxo-2-pentyl-cyclopentanehexanoate",Female Only,GF Enriched
+M271T9_1,(R)-3-Hydroxy-hexadecanoate,Female Only,GF Enriched
+M272T8_2,N-3-Hydroxydecanoyl-L-Homoserine lactone,Female Only,GF Enriched
+M279T10,Linoleate,Female Only,GF Enriched
+M285T8_4,Hexadecanedioate,Female Only,GF Enriched
+M295T9_2,(+)9-HODE,Female Only,GF Enriched
+M304T1_5,Nicotianamine,Female Only,GF Enriched
+M309T8_2,Saccharopine,Female Only,GF Enriched
+M312T9_2,Palmitoylglycine,Female Only,GF Enriched
+M317T9,12-KETE,Female Only,GF Enriched
+M343T7_5,"2,3-Dinor-TXB2",Female Only,GF Enriched
+M361T8_6,"19,20-DiHDPA",Female Only,GF Enriched
+M389T8_2,"9,13-Dihydroxy-4-megastigmen-3-one 9-glucoside",Female Only,GF Enriched
+M413T8_2,"Methyl 6,8-epidioxy-5,15-dihydroperoxy-9,11,13-eicosatrienoate",Female Only,GF Enriched
+M509T6,Glutaminylproline,Female Only,GF Enriched
+M761T9,PS(16:0/18:1),Female Only,GF Enriched
+M104T1_6,Choline,Male Only,GF Enriched
+M125T6,(E)-2-Octenal,Male Only,GF Enriched
+M127T5_1,"2,3-Heptanedione",Male Only,GF Enriched
+M143T4_1,(E)-2-Methylglutaconate,Male Only,GF Enriched
+M145T4_3,Adipate,Male Only,GF Enriched
+M156T1_4,2-Aminomuconate,Male Only,GF Enriched
+M157T8_2,4-Hydroxynonenal,Male Only,GF Enriched
+M159T5_1,Pimelate,Male Only,GF Enriched
+M161T2_3,2-Hydroxyadipate,Male Only,GF Enriched
+M173T1_5,sn-Glycerol-3-phosphate,Male Only,GF Enriched
+M173T6_2,Suberate,Male Only,GF Enriched
+M175T5_8,"4,4'-Thiobis-2-butanone",Male Only,GF Enriched
+M184T6_5,Perillate,Male Only,GF Enriched
+M187T6_4,Azelaate,Male Only,GF Enriched
+M188T1_6,N-Acetylglutamate,Male Only,GF Enriched
+M189T7_1,1-Naphthaldehyde,Male Only,GF Enriched
+M195T1_4,D-Gluconate,Male Only,GF Enriched
+M201T7_1,Sebacate,Male Only,GF Enriched
+M202T1_9,Glycyl-Lysine,Male Only,GF Enriched
+M204T1_12,L-Acetylcarnitine,Male Only,GF Enriched
+M205T7_3,Cinnamyl isobutyrate,Male Only,GF Enriched
+M215T7_3,Undecanedioate,Male Only,GF Enriched
+M216T6_4,N-Nonanoylglycine,Male Only,GF Enriched
+M219T6_4,3-Hydroxysebacate,Male Only,GF Enriched
+M238T1_3,N-Ornithyl-L-taurine,Male Only,GF Enriched
+M243T3_5,Thymidine,Male Only,GF Enriched
+M243T8_2,"1,11-Undecanedicarboxylate",Male Only,GF Enriched
+M245T1_9,Uridine,Male Only,GF Enriched
+M245T6_5,3-Hydroxydodecanedioate,Male Only,GF Enriched
+M247T3_2,_-Glutamylvaline,Male Only,GF Enriched
+M253T1_7,Shikimate 3-phosphate,Male Only,GF Enriched
+M255T8_5,Palmitate,Male Only,GF Enriched
+M277T6_1,_-Glutamylglutamate,Male Only,GF Enriched
+M281T8_4,Oleate,Male Only,GF Enriched
+M289T8_4,"3-Polyprenyl-4,5-dihydroxybenzoate",Male Only,GF Enriched
+M298T3,1-Methylguanosine,Male Only,GF Enriched
+M302T8_5,Sphinganine (d18:0),Male Only,GF Enriched
+M304T1_7,"Cytidine 2',3'-cyclic phosphate",Male Only,GF Enriched
+M305T9,Arachidonate,Male Only,GF Enriched
+M327T8_2,"2,3-Dinor-8-epi-prostaglandin F2_",Male Only,GF Enriched
+M335T8_4,Leukotriene B4,Male Only,GF Enriched
+M398T8_3,trans-Hexadec-2-enoyl carnitine,Male Only,GF Enriched
+M76T1_1,L-Glycine,Male Only,GF Enriched
+M97T6,2-Heptanone,Male Only,GF Enriched
+M112T1_8,Histamine,Not Gender Specific,Other
+M120T1_7,O-Methyl-DL-serine,Not Gender Specific,Other
+M131T5_3,2-Hydroxy-3-methylpentanoate,Not Gender Specific,Other
+M133T1_12,"2,3-Dihydroxyisovalerate",Not Gender Specific,Other
+M137T1_6,Hypoxanthine,Not Gender Specific,Other
+M146T3_1,N-Butyrylglycine,Not Gender Specific,Other
+M147T1_15,L-Lysine,Not Gender Specific,Other
+M147T4_1,S-(Indolylmethylthiohydroximoyl)-L-cysteine,Not Gender Specific,Other
+M153T2_3,Nudifloramide,Not Gender Specific,Other
+M157T1_8,Allantoin,Not Gender Specific,Other
+M159T7_2,3-Hydroxyvalproate,Not Gender Specific,Other
+M166T1_3,Quinolinate,Not Gender Specific,Other
+M170T1_12,1-Methyl-L-histidine,Not Gender Specific,Other
+M173T1_7,cis-Aconitate,Not Gender Specific,Other
+M181T4,DL-p-Hydroxyphenyllactate,Not Gender Specific,Other
+M197T6_5,Eugenol,Not Gender Specific,Other
+M208T6_4,N-Acetyl-L-phenylalanine,Not Gender Specific,Other
+M213T4_2,3-Hydroxysuberate,Not Gender Specific,Other
+M229T2_2,2Õ-Deoxyuridine,Not Gender Specific,Other
+M275T6_6,4-Hydroxycinnamoylagmatine,Not Gender Specific,Other
+M295T7_5,Mono-(2-ethyl-5-hydroxyhexyl) phthalate,Not Gender Specific,Other
+M296T1_4,Phosphoribosylformylglycineamidine,Not Gender Specific,Other
+M299T10_2,2-Hydroxystearate,Not Gender Specific,Other
+M357T3_2,Dihydrocaffeate 3-O-glucuronide,Not Gender Specific,Other
+M377T5,Riboflavin,Not Gender Specific,Other
+M491T7,"rac-5,6-Epoxy-retinoyl-_-D-glucuronide",Not Gender Specific,Other
+M506T9_2,LysoPE(20:1(11Z)/0:0),Not Gender Specific,Other
+M547T1,UDP-4-dehydro-6-deoxy-D-glucose,Not Gender Specific,Other
+M566T9_2,PS(21:0/0:0),Not Gender Specific,Other
+M613T1_2,L-Glutathione oxidized (GSSG),Not Gender Specific,Other
+M75T1,Glycolate,Not Gender Specific,Other
+M87T3_1,3-Ethoxy-1-propanol,Not Gender Specific,Other
+M88T1_3,L-Alanine,Not Gender Specific,Other
+M89T1_3,L-(+)-Lactate,Not Gender Specific,Other

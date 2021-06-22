@@ -1,0 +1,535 @@
+id,name,group,updown
+M166T1_2,L-Cysteine,Female-Only,CONV-R Enriched
+M245T5_5,Isoleucyl-Isoleucine,Female-Only,CONV-R Enriched
+M249T9_1,Tetranor 12-HETE,Female-Only,CONV-R Enriched
+M326T4_3,Urothion,Female-Only,CONV-R Enriched
+M585T11_1,Bilirubin,Female-Only,CONV-R Enriched
+M126T1_7,Taurine,Female-Only,CONV-R Enriched
+M220T6_6,(2-Naphthalenyloxy)acetate,Female-Only,CONV-R Enriched
+M261T2_3,_-Glutamylleucine,Female-Only,CONV-R Enriched
+M112T1_6,Cytosine,Female-Only,CONV-R Enriched
+M136T1_7,Adenine,Female-Only,CONV-R Enriched
+M155T3,"2,3-Dihydro-2,3-dihydroxybenzoate",Female-Only,CONV-R Enriched
+M165T3_1,3-Methylxanthine,Female-Only,CONV-R Enriched
+M175T2_4,2-Isopropylmalate,Female-Only,CONV-R Enriched
+M196T1_8,N2-Succinyl-L-glutamate 5-semialdehyde,Female-Only,CONV-R Enriched
+M207T1_4,2-Mercaptoglutarate,Female-Only,CONV-R Enriched
+M223T5_2,Dehydrochorismate,Female-Only,CONV-R Enriched
+M231T5_6,6-Nonenoylglycine,Female-Only,CONV-R Enriched
+M232T1_8,Asparaginyl-Valine,Female-Only,CONV-R Enriched
+M241T8_2,9-Pentadecenoate,Female-Only,CONV-R Enriched
+M267T4_8,Threoninyl-Phenylalanine,Female-Only,CONV-R Enriched
+M293T4_6,Isoleucyl-Tyrosine,Female-Only,CONV-R Enriched
+M313T7_6,5-Androstenediol,Female-Only,CONV-R Enriched
+M85T1_2,"2,3-Butadione",Female-Only,CONV-R Enriched
+M179T5,Caffeate,Female-Only,GF Enriched
+M195T2_4,4-Aminohippurate,Female-Only,GF Enriched
+M201T2_4,Proclavaminate,Female-Only,GF Enriched
+M245T1_8,Uridine,Female-Only,GF Enriched
+M263T5_4,Phenylacetyl L-glutamine,Female-Only,GF Enriched
+M321T2_1,Thymidine 5'-monophosphate (TMP),Female-Only,GF Enriched
+M441T7_6,Tirofiban,Female-Only,GF Enriched
+M573T9,Vitamin D2 3-glucuronide,Female-Only,GF Enriched
+M100T1,1-Aminocyclopropane-1-carboxylate,Female-Only,GF Enriched
+M191T1_5,Citrate,Female-Only,GF Enriched
+M205T4_7,L-Tryptophan,Female-Only,GF Enriched
+M230T2_5,N-Acetylhistidine,Female-Only,GF Enriched
+M245T4_3,Indolylacryloylglycine,Female-Only,GF Enriched
+M112T1_2,1-Pyrroline-5-carboxylate,Female-Only,GF Enriched
+M148T4_3,3-Methyl-3-phenylazetidine,Female-Only,GF Enriched
+M157T1_10,4-Amino-5-hydroxymethyl-2-methylpyrimidine,Female-Only,GF Enriched
+M178T1_8,Glucosamine,Female-Only,GF Enriched
+M240T5_1,Indole-3-carboxylate-O-sulfate,Female-Only,GF Enriched
+M254T5_3,N-Lactoyl-Tyrosine,Female-Only,GF Enriched
+M294T4_11,Val-Pro-Pro,Female-Only,GF Enriched
+M330T1_6,2'-Deoxyadenosine 5'-monophosphate (dAMP),Female-Only,GF Enriched
+M331T7_4,12-Hydroxyheptadecanoate,Female-Only,GF Enriched
+M364T7_4,"9,10-Dihydroxy-13-hydroperoxy-11-octadecenoate",Female-Only,GF Enriched
+M367T5_3,3-O-Caffeoyl-4-O-methylquinate,Female-Only,GF Enriched
+M120T1_9,L-Threonine,Female-Only,GF Enriched
+M147T1_10,L-Glutamine,Female-Only,GF Enriched
+M160T4_6,N-(2-Methylbutyryl)glycine,Female-Only,GF Enriched
+M193T1_11,Hydroxycotinine,Female-Only,GF Enriched
+M193T1_6,D-(+)-Galacturonate,Female-Only,GF Enriched
+M202T1_5,Cysteine-S-sulfate,Female-Only,GF Enriched
+M236T4_3,Biopterin,Female-Only,GF Enriched
+M243T1_9,_-Pseudouridine,Female-Only,GF Enriched
+M257T1_10,Dihydrothymine,Female-Only,GF Enriched
+M259T2_1,_-L-Glutamyl-L-pipecolate,Female-Only,GF Enriched
+M301T2_2,3''-Deamino-3''-oxonicotianamine,Female-Only,GF Enriched
+M338T4_2,N(2)-Carboxyethyl-2'-deoxyguanosine,Female-Only,GF Enriched
+M350T3_2,Coutarate,Female-Only,GF Enriched
+M112T1_10,Histamine,Male-Only,CONV-R Enriched
+M138T2_3,Tyramine,Male-Only,CONV-R Enriched
+M144T2_2,Proline betaine,Male-Only,CONV-R Enriched
+M153T2_2,Xanthine,Male-Only,CONV-R Enriched
+M159T5_2,Pimelate,Male-Only,CONV-R Enriched
+M170T1_9,Norepinephrine,Male-Only,CONV-R Enriched
+M172T1_6,(5S)-5-(Carboxymethyl)-L-proline,Male-Only,CONV-R Enriched
+M173T6,Suberate,Male-Only,CONV-R Enriched
+M174T1_8,N-Acetyl-L-glutamate 5-semialdehyde,Male-Only,CONV-R Enriched
+M187T1_9,N_-Acetyl-lysine,Male-Only,CONV-R Enriched
+M187T6_3,Azelate,Male-Only,CONV-R Enriched
+M201T7,Sebacate,Male-Only,CONV-R Enriched
+M225T5_3,Chorismate,Male-Only,CONV-R Enriched
+M225T5_4,"4-Hydroxy-(3',4'-dihydroxyphenyl)-valerate",Male-Only,CONV-R Enriched
+M234T3_3,Dopamine 4-sulfate,Male-Only,CONV-R Enriched
+M235T5_2,2-(4'-Methylthio)butylmalate,Male-Only,CONV-R Enriched
+M238T4_1,"5,6-Dihydroxyindole-2-carboxylate (DHICA)",Male-Only,CONV-R Enriched
+M243T8_2,"1,11-Undecanedicarboxylate",Male-Only,CONV-R Enriched
+M272T7,L-Thyronine,Male-Only,CONV-R Enriched
+M365T6_2,20-Carboxy-leukotriene B4,Male-Only,CONV-R Enriched
+M413T7_4,PGD2 ethanolamide,Male-Only,CONV-R Enriched
+M426T7_8,Prostaglandin H2-ethanolamide (PGH2-EA),Male-Only,CONV-R Enriched
+M429T7_3,Prostaglandin F2_ 2-glyceryl ester,Male-Only,CONV-R Enriched
+M531T7_2,5_-Cyprinol sulfate,Male-Only,CONV-R Enriched
+M129T1_12,Pyroglutamine,Male-Only,CONV-R Enriched
+M131T2_1,Glutarate,Male-Only,CONV-R Enriched
+M189T4_1,3-Hydroxysuberate,Male-Only,CONV-R Enriched
+M190T5_2,Kynurenate,Male-Only,CONV-R Enriched
+M227T5_2,"2-Hydroxy-3,4,5-trimethoxybenzoate",Male-Only,CONV-R Enriched
+M230T4_6,"4-(2-Aminophenyl)-2,4-dioxobutanoate",Male-Only,CONV-R Enriched
+M297T9_1,"12,13-EpOME",Male-Only,CONV-R Enriched
+M128T1_1,Pyroglutamate,Male-Only,CONV-R Enriched
+M146T1_4,N-Acetyl-serine,Male-Only,CONV-R Enriched
+M153T4_1,2-Pyrocatechuate,Male-Only,CONV-R Enriched
+M164T3_3,Homomethionine,Male-Only,CONV-R Enriched
+M173T1_10,N6-Formyl-lysine (FLys),Male-Only,CONV-R Enriched
+M173T1_13,L-Arginine,Male-Only,CONV-R Enriched
+M206T4_4,Xanthurenate,Male-Only,CONV-R Enriched
+M251T2_3,Threoninyl-Methionine,Male-Only,CONV-R Enriched
+M274T1_11,Glutamyllysine,Male-Only,CONV-R Enriched
+M329T8_5,"9,10,13-TriHOME",Male-Only,CONV-R Enriched
+M351T8_3,"2,3-Dinor-8-epi-prostaglandin F1_",Male-Only,CONV-R Enriched
+M75T1,Glycolate,Male-Only,CONV-R Enriched
+M89T1_3,L-(+)-Lactate,Male-Only,CONV-R Enriched
+M119T1_5,"(S)-3,4-Dihydroxybutyrate",Male-Only,CONV-R Enriched
+M127T2_2,Thymine,Male-Only,CONV-R Enriched
+M145T4_1,Adipate,Male-Only,CONV-R Enriched
+M146T6,Indole-3-carboxaldehyde,Male-Only,CONV-R Enriched
+M204T1_15,Glycyl-Lysine,Male-Only,CONV-R Enriched
+M217T3_5,Valyl-Valine,Male-Only,CONV-R Enriched
+M224T4_6,4-Amino-4-deoxychorismate,Male-Only,CONV-R Enriched
+M244T2_3,Isoleucyl-Asparagine,Male-Only,CONV-R Enriched
+M279T9_2,_-Linolenate,Male-Only,CONV-R Enriched
+M279T5_3,alpha-Ribazole,Male-Only,GF Enriched
+M282T5_2,4-Hydroxyphenylacetylglutamine,Male-Only,GF Enriched
+M321T1_3,Benzoyl glucuronide (Benzoate),Male-Only,GF Enriched
+M379T6_3,11-Dehydrocorticosterone,Male-Only,GF Enriched
+M618T6_1,Taurocholate 3-sulfate,Male-Only,GF Enriched
+M338T5_1,S-(Hydroxymethyl)glutathione,Male-Only,GF Enriched
+M114T1_2,L-Proline,Male-Only,GF Enriched
+M218T2_3,"2,3-Pentanedione",Male-Only,GF Enriched
+M223T1_6,L-Cystathionine,Male-Only,GF Enriched
+M262T4_5,Glycyl-Tryptophan,Male-Only,GF Enriched
+M183T1_8,Galactitol,Male-Only,GF Enriched
+M310T1_5,N-Acetylneuraminate,Male-Only,GF Enriched
+M417T8_2,"3_,7_-Dihydroxycoprostanate",Male-Only,GF Enriched
+M464T8_1,Dihydrocytochalasin B _-lactone,Male-Only,GF Enriched
+M143T1_11,Ectoine,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M180T4_5,3-Methylcrotonylglycine,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M209T5_4,"L,L-Cyclo(leucylprolyl)",Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M220T2_1,S-(3-Oxo-3-carboxy-n-propyl)cysteine,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M222T1_7,N-Acetylgalactosamine (GalNAc),Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M245T6_5,3-Hydroxydodecanedioate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M249T9_2,"6Z,9Z,12Z-Octadecatriene",Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M257T9,3-Hydroxypentadecanoate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M655T8_1,Coproporphyrin III,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M103T1_2,Malonate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M117T4,2-Hydroxy-3-methylbutyrate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M149T7_2,1-Methyl-4-(1-methylpropyl)-benzene,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M161T1_7,2-Hydroxyadipate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M182T3_10,2-(5-Methyl-2-furanyl)-3-piperidinol,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M198T1_7,"3,4-Dihydroxy-L-phenylalanine (L-DOPA)",Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M360T4_5,Glu-Ile-Val,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M148T1_6,L-Methionine,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M203T2_7,Alanyl-Leucine,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M233T3_3,Threoninyl-Leucine,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M279T5_5,Phenylalanyl-isoleucine,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M615T6,Mesobilirubinogen,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M115T2,_-Ketoisovalerate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M129T5_1,3-Methyl-2-oxovalerate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M147T2_3,Mevalonate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M165T6,DL-3-Phenyllactate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M184T1_12,Epinephrine,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M188T1_3,N-Acetylglutamate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M215T3_3,cis-Trihomoaconitate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M220T4_7,D-(+)-Pantothenate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M229T7_3,Dodecanedioate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M316T5_6,Val-Val-Val,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M105T1_1,Glycerate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M182T1_3,Homocysteate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M215T7,Undecanedioate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M219T3_2,Serylleucine,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M248T4_2,3-Methoxytyramine sulfate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M255T9,Palmitoleate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M275T8_2,Nandrolone,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M350T1_6,N-Acetyl-9-O-acetylneuraminate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M145T7_2,Coumarin,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M159T1_4,2-Keto-3-deoxy-D-gluconate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M187T1_10,Glycylleucine,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M203T3_3,Isoleucyl-Alanine,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M219T1_16,L-Lysopine,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M223T4_6,Glycyl-Phenylalanine,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M224T3_5,Fumarycarnitine,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M353T8,"9,12,13-TriHOME",Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M76T1_2,Trimethylamine N-oxide (TMAO),Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M87T1_2,Pyruvate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M130T1_9,Pipecolate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M170T1_10,Pyridoxine,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M176T6_2,Indole-3-acetate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M215T1_4,2-C-Methyl-D-erythritol 4-phosphate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M221T1_14,N-Acetyl-_-glucosaminylamine,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M231T4_8,Valyl-Isoleucine,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M245T5_6,Isoleucyl-Leucine,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M276T2_6,Glutaminylproline,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M375T8_4,3_-Hydroxy-5-cholenoate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M150T1_5,Guanine,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M152T4,3-Hydroxyanthranilate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M181T7,4-Phenyl-3-buten-2-ol,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M237T8_2,Humulene-8-hydroperoxide,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M247T7_2,"5,8-Tetradecadienoate",Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M257T8_2,Tetradecanedioate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M425T7_4,"3_,7_,12_,19-Tetrahydroxy-5_-cholanoate",Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M449T8_5,Coprocholate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M181T3_1,1-Methylurate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M182T6_4,Phenylpyruvate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M217T2_4,N-(3-Acetamidopropyl)pyrrolidin-2-one,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M319T8_1,Ubiquinone-2,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M371T8_3,"3-Oxo-4,6-choladienoate",Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M487T5_4,7-Sulfocholate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M145T1_2,_-Ketoglutarate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M175T1_16,N-Acetylproline,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M204T6_2,Indole-3-lactate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M215T4_1,Bisnorbiotin,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M232T3_1,Dopamine 3-O-sulfate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M285T8_4,Hexadecanedioate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M342T9_2,Dodecanoylcarnitine,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M403T7_2,"24,25,26,27-Tetranor-23-oxo-hydroxyvitamin D3",Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M143T2,(E)-2-Methylglutaconate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M145T1_8,3-Methylglutaconate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M146T1_16,Spermidine,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M147T1_11,L-Lysine,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M148T1_14,L-Glutamate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M171T3,"2-Hydroxyhepta-2,4-dienedioate",Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M189T1_4,Oxalosuccinate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M243T5_7,Leucyl-Isoleucine,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M406T5_4,Neurotensin 11-13,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M429T9_5,1-Hydroxyvitamin D5,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M133T1_9,"(R)-2,3-Dihydroxy-isovalerate",Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M135T1_5,Hypoxanthine,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M146T1_12,Acetylcholine,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M173T7,"1,2-Dihydro-1,1,6-trimethylnaphthalene",Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M174T1_8,Citrulline,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M260T3_4,Lysyl-Hydroxyproline,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M265T1_10,Thiamine,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M265T9,"(9Z,12Z,15Z)-Octadecatrien-1-ol",Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M271T9_2,(R)-3-Hydroxy-hexadecanoate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M283T9_2,Oleate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M285T8_2,Protoporphyrinogen IX,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M329T7_2,Aflatoxin B1 dialcohol,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M339T8_3,Tetracosahexaenoate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M355T8_2,"3_-Hydroxychola-5,7-dien-24-oate",Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M357T8_4,"(1S)-1-Hydroxy-23,24-didehydro-25,26,27-trinorcalciol",Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M371T7_3,"3_,12_-Dihydroxy-5_-chola-7,14-dien-24-oate",Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M373T8_2,"3_-Hydroxy-5_-chola-8(14),11-dien-24-oate",Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M375T9_3,Lithocholate ,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M389T8_2,"3_,12_-Dihydroxy-5_-chola-7,9(11)-dien-24-oate",Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M389T8_4,Nutriacholate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M391T7_4,"3_,7_,12_-Trihydroxy-5_-cholanoate",Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M391T8_3,Octadecylfumarate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M391T8_4,Hyodeoxycholate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M391T8_5,Chenodeoxycholate ,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M391T9_2,Deoxycholate ,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M403T9_1,11'-Carboxy-_-chromanol,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M405T8_3,"3_,6_,7_,12_-Tetrahydroxy-5_-cholanoate",Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M407T7_3,7-Ketodeoxycholate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M407T8_3,Cholate ,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M407T8_4,_-Muricholate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M448T8,Glycodeoxycholate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M593T8_1,L-Urobilin,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M615T8_1,Harderoporphyrinogen,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M73T1_2,Propionate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M836T8,PI(16:0/18:1(9Z)),Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M874T8,"PI(15:1(9Z)/22:2(13Z,16Z))",Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M113T1_6,Uracil,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M117T1_3,Succinate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M139T1_10,trans-Urocanate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M144T1_3,4-Acetamidobutanoate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M174T1_4,N-Acetyl-L-aspartate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M175T1_10,D-1-Amino-2-pyrrolidinecarboxylate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M190T7,Indole-3-propionate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M260T1_16,Isoleucyl-Glutamine,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M288T8_2,C17 Sphinganine,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M313T9_2,"12,13-DHOME",Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M321T9,15(S)-HETE,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M366T6_2,3-Hydroxydecanoylcarnitine,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M405T7_2,9'-Carboxy-_-tocotrienol,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M104T1_4,_-Aminobutyrate (GABA),Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M124T1_7,2-Picolinate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M131T5_2,2-Hydroxyisocaproate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M132T1_3,L-Aspartate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M133T1_5,L-Malate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M160T4_8,DL-2-Aminooctanoate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M177T3_8,Serotonin,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M195T4_6,N'-Nitrosonornicotine,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M221T1_8,Ethyl-_-D-glucuronide,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M229T4_7,Isoleucyl-Valine,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M233T4_6,Isoleucyl-Threonine,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M299T10,2-Hydroxystearate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M407T7_5,Ascorbylstearate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M441T8_4,"24_,24_-Dihomo-9,10-secocholesta-5,7,10(19),24_-tetraen-1_,3,25-triol",Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M131T1_4,2-Hydroxy-4-oxopentanoate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M145T1_13,N-Acetylcadaverine,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M161T1_6,D-Glucose,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M163T6,4-Coumarate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M187T2_5,Glycyl-Isoleucine,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M192T8,4-Methyl-2-phenyl-2-pentenal,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M231T4_6,Leucyl-Valine,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M247T1_5,L-_-Aspartyl-L-leucine,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M275T1_6,6-Phospho-D-gluconate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M387T7_4,"7_,12_-Dihydroxy-3-oxo-4-cholenoate",Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M413T8_1,7-Hydroxy-3-oxocholanoate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M434T8,Glycolithocholate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M90T1_4,L-Alanine,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M90T1_5,Sarcosine,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M258T5_1,Glucosamine 6-phosphate,Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M162T5_3,"2,8-Quinolinediol",Not Sex-Specific & Opposite Trend,CONV-R Enriched
+M162T1_9,L-2-Aminoadipate,Not Sex-Specific & Opposite Trend,GF Enriched
+M217T1_11,Threoninyl-Proline,Not Sex-Specific & Opposite Trend,GF Enriched
+M217T5_4,N_-Methyltetrahydroharmol,Not Sex-Specific & Opposite Trend,GF Enriched
+M256T2_4,Pyro-L-glutaminyl-L-glutamine,Not Sex-Specific & Opposite Trend,GF Enriched
+M260T4_2,O(4')-Sulfo-L-tyrosine,Not Sex-Specific & Opposite Trend,GF Enriched
+M274T1_5,Deoxyadenosine (dA),Not Sex-Specific & Opposite Trend,GF Enriched
+M275T4_1,Dihydroferulate 4-sulfate,Not Sex-Specific & Opposite Trend,GF Enriched
+M289T5_1,3-[3-Methoxy-4-(sulfooxy)phenyl]oxirane-2-carboxylate,Not Sex-Specific & Opposite Trend,GF Enriched
+M380T1_3,4-Hydroxy-6-methylpretetramide,Not Sex-Specific & Opposite Trend,GF Enriched
+M481T5_1,D-Gycero-L-galacto-octulose,Not Sex-Specific & Opposite Trend,GF Enriched
+M514T6_3,Tauro _-muricholate,Not Sex-Specific & Opposite Trend,GF Enriched
+M118T7,Indole,Not Sex-Specific & Opposite Trend,GF Enriched
+M120T1_10,L-Homocysteine,Not Sex-Specific & Opposite Trend,GF Enriched
+M231T1_7,5'-Amino-5'-deoxyadenosine,Not Sex-Specific & Opposite Trend,GF Enriched
+M231T4_1,Vanillin 4-sulfate,Not Sex-Specific & Opposite Trend,GF Enriched
+M233T4_5,"(4-Ethyl-2,6-dihydroxyphenyl)oxidanesulfonate",Not Sex-Specific & Opposite Trend,GF Enriched
+M330T4_2,Carbocysteine-lysine,Not Sex-Specific & Opposite Trend,GF Enriched
+M514T7_4,Sulfolithocholylglycine,Not Sex-Specific & Opposite Trend,GF Enriched
+M309T4_3,_-Glutamyltyrosine,Not Sex-Specific & Opposite Trend,GF Enriched
+M476T4_2,Ergothioneine,Not Sex-Specific & Opposite Trend,GF Enriched
+M129T1_3,"2,5-Dioxopentanoate",Not Sex-Specific & Opposite Trend,GF Enriched
+M153T2_3,Nudifloramide,Not Sex-Specific & Opposite Trend,GF Enriched
+M181T4_1,DL-p-Hydroxyphenyllactate,Not Sex-Specific & Opposite Trend,GF Enriched
+M200T1_9,N-Acetyl-L-2-aminoadipate,Not Sex-Specific & Opposite Trend,GF Enriched
+M302T4_7,Nicotianamine,Not Sex-Specific & Opposite Trend,GF Enriched
+M382T1_5,Lacto-N-biose I,Not Sex-Specific & Opposite Trend,GF Enriched
+M74T1,Glycine,Not Sex-Specific & Opposite Trend,GF Enriched
+M120T4_3,Indoline,Not Sex-Specific & Opposite Trend,GF Enriched
+M167T1_4,Urate,Not Sex-Specific & Opposite Trend,GF Enriched
+M203T1_16,Asymmetric dimethylarginine,Not Sex-Specific & Opposite Trend,GF Enriched
+M205T4_1,Pyrogallol-1-O-sulfate,Not Sex-Specific & Opposite Trend,GF Enriched
+M211T1_10,Deoxyuridine (dU),Not Sex-Specific & Opposite Trend,GF Enriched
+M213T2_3,Threoninyl-Hydroxyproline,Not Sex-Specific & Opposite Trend,GF Enriched
+M228T1_11,Deoxycytidine (dC),Not Sex-Specific & Opposite Trend,GF Enriched
+M235T1_5,L-_-Aspartyl-L-threonine,Not Sex-Specific & Opposite Trend,GF Enriched
+M258T2_3,5-Methylcytidine,Not Sex-Specific & Opposite Trend,GF Enriched
+M317T7_4,Pregnenolone,Not Sex-Specific & Opposite Trend,GF Enriched
+M352T4_2,Indole-3-acetate O-glucuronide,Not Sex-Specific & Opposite Trend,GF Enriched
+M394T8_1,18-Oxocortisol,Not Sex-Specific & Opposite Trend,GF Enriched
+M480T7_3,"N-[(4Z,7Z,10Z,13Z,16Z,19Z)-Docosahexaenoyl]-L-glutamate",Not Sex-Specific & Opposite Trend,GF Enriched
+M505T7,"(3_,9R)-5-Megastigmene-3,9-diol 9-[apiosyl-(1->6)-glucoside]",Not Sex-Specific & Opposite Trend,GF Enriched
+M138T4_3,Anthranilate,Not Sex-Specific & Opposite Trend,GF Enriched
+M162T4,3-Methyldioxyindole,Not Sex-Specific & Opposite Trend,GF Enriched
+M207T6_2,1-Oxo-1H-2-benzopyran-3-carboxaldehyde,Not Sex-Specific & Opposite Trend,GF Enriched
+M225T4_5,3-Nitro-L-tyrosine,Not Sex-Specific & Opposite Trend,GF Enriched
+M363T7_5,Cortisol,Not Sex-Specific & Opposite Trend,GF Enriched
+M400T8_7,Palmitoyl-L-carnitine,Not Sex-Specific & Opposite Trend,GF Enriched
+M440T5_1,Folate,Not Sex-Specific & Opposite Trend,GF Enriched
+M498T7,Tauroursodeoxycholate,Not Sex-Specific & Opposite Trend,GF Enriched
+M543T7_1,Cortolone-3-glucuronide,Not Sex-Specific & Opposite Trend,GF Enriched
+M74T1_5,Aminoacetone,Not Sex-Specific & Opposite Trend,GF Enriched
+M181T6_3,"2-Phenyl-1,3-dioxolane-4-methanol",Not Sex-Specific & Opposite Trend,GF Enriched
+M206T6,N-Acetyl-L-phenylalanine,Not Sex-Specific & Opposite Trend,GF Enriched
+M281T3_4,Valyl-Tyrosine,Not Sex-Specific & Opposite Trend,GF Enriched
+M104T1_5,Choline,Not Sex-Specific & Opposite Trend,GF Enriched
+M165T6_2,"p-Menth_-2,4(8)-dien-9,3-olide",Not Sex-Specific & Opposite Trend,GF Enriched
+M225T5_2,Sinapate,Not Sex-Specific & Opposite Trend,GF Enriched
+M228T1_11,Asparaginyl-Proline,Not Sex-Specific & Opposite Trend,GF Enriched
+M229T4_11,Leucylproline,Not Sex-Specific & Opposite Trend,GF Enriched
+M237T1_15,Homoanserine,Not Sex-Specific & Opposite Trend,GF Enriched
+M245T5_3,3-(3-Hydroxyphenyl)propanoate sulfate,Not Sex-Specific & Opposite Trend,GF Enriched
+M249T1_6,"3,4-Dihydroxyphenylglycol O-sulfate",Not Sex-Specific & Opposite Trend,GF Enriched
+M276T4_3,N-(2-Methoxy-4-pyridyl)-N'-phenylurea,Not Sex-Specific & Opposite Trend,GF Enriched
+M333T4_5,Pseudaminate,Not Sex-Specific & Opposite Trend,GF Enriched
+M429T9_4,"4_-Hydroxymethyl-4_-methyl-5_-cholesta-8,24-dien-3_-ol",Not Sex-Specific & Opposite Trend,GF Enriched
+M438T9,PE(P-16:0e/0:0),Not Sex-Specific & Opposite Trend,GF Enriched
+M445T9_3,25-Hydroxyvitamin D2,Not Sex-Specific & Opposite Trend,GF Enriched
+M190T4_2,N-Acetyl-L-methionine,Not Sex-Specific & Opposite Trend,GF Enriched
+M191T1_10,L-_-Aspartyl-L-glycine,Not Sex-Specific & Opposite Trend,GF Enriched
+M206T5_3,5-Methoxyindoleacetate,Not Sex-Specific & Opposite Trend,GF Enriched
+M207T7_2,Vinyl caffeate,Not Sex-Specific & Opposite Trend,GF Enriched
+M253T4_5,Pyrraline,Not Sex-Specific & Opposite Trend,GF Enriched
+M262T1_7,Glutaminylaspartate,Not Sex-Specific & Opposite Trend,GF Enriched
+M263T1_3,L-_-Aspartyl-L-glutamate,Not Sex-Specific & Opposite Trend,GF Enriched
+M264T6_3,2-(2-Phenylacetoxy)propionylglycine,Not Sex-Specific & Opposite Trend,GF Enriched
+M318T1_4,N4-Acetylcytidine,Not Sex-Specific & Opposite Trend,GF Enriched
+M328T3_3,N-(1-Deoxy-1-fructosyl)phenylalanine,Not Sex-Specific & Opposite Trend,GF Enriched
+M328T5_2,Valclavam,Not Sex-Specific & Opposite Trend,GF Enriched
+M489T3,Citicoline,Not Sex-Specific & Opposite Trend,GF Enriched
+M130T1_5,N-Acetyl-L-alanine,Not Sex-Specific & Opposite Trend,GF Enriched
+M221T5_4,O-Succinylbenzoate,Not Sex-Specific & Opposite Trend,GF Enriched
+M247T3_5,_-Glutamylvaline,Not Sex-Specific & Opposite Trend,GF Enriched
+M114T1_6,Creatinine,Not Sex-Specific & Opposite Trend,GF Enriched
+M172T6_2,Hexanoylglycine,Not Sex-Specific & Opposite Trend,GF Enriched
+M175T7_1,3-Propylidene-1(3H)-isobenzofuranone,Not Sex-Specific & Opposite Trend,GF Enriched
+M189T1_14,"N6,N6,N6-Trimethyl-L-lysine",Not Sex-Specific & Opposite Trend,GF Enriched
+M212T5_3,N-(3-Oxohexanoyl)homoserine lactone,Not Sex-Specific & Opposite Trend,GF Enriched
+M246T5_2,Isovaleryl-L-carnitine,Not Sex-Specific & Opposite Trend,GF Enriched
+M302T6_3,Dobutamine,Not Sex-Specific & Opposite Trend,GF Enriched
+M446T5_1,LysoPE(0:0/14:1(9Z)),Not Sex-Specific & Opposite Trend,GF Enriched
+M166T2,Pyridoxal,Not Sex-Specific & Opposite Trend,GF Enriched
+M173T1_9,Diaminopimelate,Not Sex-Specific & Opposite Trend,GF Enriched
+M199T2_4,(Z)-3-(1-Formyl-1-propenyl)pentanedioate,Not Sex-Specific & Opposite Trend,GF Enriched
+M222T5_3,Methyl dioxindole-3-acetate,Not Sex-Specific & Opposite Trend,GF Enriched
+M243T3_4,Thymidine,Not Sex-Specific & Opposite Trend,GF Enriched
+M263T4_11,Phenylalanylproline,Not Sex-Specific & Opposite Trend,GF Enriched
+M268T2_2,Adenosine,Not Sex-Specific & Opposite Trend,GF Enriched
+M271T4_4,Porphobilinogen,Not Sex-Specific & Opposite Trend,GF Enriched
+M151T5_3,4-Coumaryl alcohol,Not Sex-Specific & Opposite Trend,GF Enriched
+M155T2_2,N-Acetylornithine,Not Sex-Specific & Opposite Trend,GF Enriched
+M157T1_5,Allantoin,Not Sex-Specific & Opposite Trend,GF Enriched
+M165T1_6,Arabinonate,Not Sex-Specific & Opposite Trend,GF Enriched
+M172T5_2,N-Acetylleucine,Not Sex-Specific & Opposite Trend,GF Enriched
+M193T5_1,4-Hydroxy-3-methoxycinnamate,Not Sex-Specific & Opposite Trend,GF Enriched
+M199T1_11,Alanylclavam,Not Sex-Specific & Opposite Trend,GF Enriched
+M217T4_1,5-Sulfosalicylate,Not Sex-Specific & Opposite Trend,GF Enriched
+M221T1_11,L-_-Aspartyl-L-serine,Not Sex-Specific & Opposite Trend,GF Enriched
+M229T1_11,Prolyl-Aspartate,Not Sex-Specific & Opposite Trend,GF Enriched
+M237T4_7,Alanyl-Phenylalanine,Not Sex-Specific & Opposite Trend,GF Enriched
+M257T1_7,Imidazoleacetate riboside,Not Sex-Specific & Opposite Trend,GF Enriched
+M259T1_9,Ribothymidine,Not Sex-Specific & Opposite Trend,GF Enriched
+M261T4_1,Homovanillate sulfate,Not Sex-Specific & Opposite Trend,GF Enriched
+M262T1_9,Aspartyl-lysine,Not Sex-Specific & Opposite Trend,GF Enriched
+M263T2_5,Aspartyl-Methionine,Not Sex-Specific & Opposite Trend,GF Enriched
+M265T2_1,N-Acetylcystathionine,Not Sex-Specific & Opposite Trend,GF Enriched
+M273T5_1,Isoferulate 3-sulfate,Not Sex-Specific & Opposite Trend,GF Enriched
+M281T4_6,Aspartyl-phenylalanine,Not Sex-Specific & Opposite Trend,GF Enriched
+M284T4_1,Xanthurenate 8-O-sulfate,Not Sex-Specific & Opposite Trend,GF Enriched
+M286T1_11,N-Ribosylhistidine,Not Sex-Specific & Opposite Trend,GF Enriched
+M288T2_3,Isotabtoxin,Not Sex-Specific & Opposite Trend,GF Enriched
+M297T3_1,Tyrosyl-Aspartate,Not Sex-Specific & Opposite Trend,GF Enriched
+M298T2_3,8-Hydroxyguanosine,Not Sex-Specific & Opposite Trend,GF Enriched
+M300T2_2,N-(1-Deoxy-1-fructosyl)histidine,Not Sex-Specific & Opposite Trend,GF Enriched
+M303T5_2,"5-(3',4',5'-Trihydroxyphenyl)-_-valerolactone-4'-O-sulfate",Not Sex-Specific & Opposite Trend,GF Enriched
+M314T7_4,O-[(4Z)-Decenoyl]carnitine,Not Sex-Specific & Opposite Trend,GF Enriched
+M318T2_2,_-D-Glutamyl-meso-diaminopimelate,Not Sex-Specific & Opposite Trend,GF Enriched
+M324T5_6,3-Hydroxyhexanoylcarnitine,Not Sex-Specific & Opposite Trend,GF Enriched
+M326T7_3,N-[[3-Hydroxy-2-(2-pentenyl)cyclopentyl]acetyl]isoleucine,Not Sex-Specific & Opposite Trend,GF Enriched
+M333T5_2,"5-(3',4',5'-Trihydroxyphenyl)-_-valerolactone-O-methyl-O-sulfate",Not Sex-Specific & Opposite Trend,GF Enriched
+M339T6_2,3-O-p-Coumaroylquinate,Not Sex-Specific & Opposite Trend,GF Enriched
+M340T4_4,Phosphatidylcholine 40:6,Not Sex-Specific & Opposite Trend,GF Enriched
+M340T5_5,Lysine tyrosylquinone,Not Sex-Specific & Opposite Trend,GF Enriched
+M341T4_1,4-Nitrophenyl N-acetyl-_-D-galactosaminide (GlcNAc-PNP),Not Sex-Specific & Opposite Trend,GF Enriched
+M352T2_2,S-(2-Hydroxyethyl)glutathione,Not Sex-Specific & Opposite Trend,GF Enriched
+M359T4_5,3-Methoxy-4-hydroxyphenylglycol glucuronide,Not Sex-Specific & Opposite Trend,GF Enriched
+M366T4_1,N-Hydroxydebrisoquine O-glucuronide,Not Sex-Specific & Opposite Trend,GF Enriched
+M380T2_1,S-Lactoylglutathione,Not Sex-Specific & Opposite Trend,GF Enriched
+M384T3_1,"(S)-2,3-Dihydro-3,5-dihydroxy-2-oxo-3-indoleacetate 5-glucoside",Not Sex-Specific & Opposite Trend,GF Enriched
+M400T7_2,(5Z)-13-Carboxytridec-5-enoylcarnitine,Not Sex-Specific & Opposite Trend,GF Enriched
+M413T8_6,"4,4-Dimethyl-5_-cholesta-8,24-dien-3-_-ol",Not Sex-Specific & Opposite Trend,GF Enriched
+M438T6_4,"N1,N10-Dicoumaroylspermidine",Not Sex-Specific & Opposite Trend,GF Enriched
+M441T7_3,Diferuloylputrescine,Not Sex-Specific & Opposite Trend,GF Enriched
+M447T6_1,Genistein 4'-O-glucuronide,Not Sex-Specific & Opposite Trend,GF Enriched
+M486T4_3,Ac-Ser-Asp-Lys-Pro-OH,Not Sex-Specific & Opposite Trend,GF Enriched
+M497T5_1,L-_-Aspartyl-L-aspartate,Not Sex-Specific & Opposite Trend,GF Enriched
+M505T6_1,Glycitein 4'-O-glucuronide,Not Sex-Specific & Opposite Trend,GF Enriched
+M521T8,Tetrahydroaldosterone-3-glucuronide,Not Sex-Specific & Opposite Trend,GF Enriched
+M533T7_4,Taurocholate,Not Sex-Specific & Opposite Trend,GF Enriched
+M565T5_1,Apiin,Not Sex-Specific & Opposite Trend,GF Enriched
+M591T8_3,"16-Glutaryloxy-1_,25-dihydroxyvitamin D3",Not Sex-Specific & Opposite Trend,GF Enriched
+M611T9,"Cholestane-3,7,12,25-tetrol-3-glucuronide",Not Sex-Specific & Opposite Trend,GF Enriched
+M629T9,PI(P-18:0/0:0),Not Sex-Specific & Opposite Trend,GF Enriched
+M630T6_1,Fructoselysine,Not Sex-Specific & Opposite Trend,GF Enriched
+M637T9_2,PA(P-16:0/14:1(9Z)),Not Sex-Specific & Opposite Trend,GF Enriched
+M699T1_2,2-(S-Glutathionyl)acetyl glutathione,Not Sex-Specific & Opposite Trend,GF Enriched
+M173T1_6,Shikimate,Not Sex-Specific & Opposite Trend,GF Enriched
+M195T4_8,Laccarin,Not Sex-Specific & Opposite Trend,GF Enriched
+M216T7_2,N-Nonanoylglycine,Not Sex-Specific & Opposite Trend,GF Enriched
+M224T4_5,Vanilloylglycine,Not Sex-Specific & Opposite Trend,GF Enriched
+M231T2_6,N2-Succinyl-L-ornithine,Not Sex-Specific & Opposite Trend,GF Enriched
+M233T5_9,"2,6-Pipecoloxylidide",Not Sex-Specific & Opposite Trend,GF Enriched
+M235T4_4,S-4-Hydroxymephenytoin,Not Sex-Specific & Opposite Trend,GF Enriched
+M245T2_3,_-Glutamyl-S-methylcysteine,Not Sex-Specific & Opposite Trend,GF Enriched
+M246T5_7,Malonylcarnitine,Not Sex-Specific & Opposite Trend,GF Enriched
+M255T4_7,Aldosine,Not Sex-Specific & Opposite Trend,GF Enriched
+M260T6_4,Hexanoylcarnitine,Not Sex-Specific & Opposite Trend,GF Enriched
+M263T2_1,3-Methoxy-4-Hydroxyphenylglycol sulfate,Not Sex-Specific & Opposite Trend,GF Enriched
+M288T7_3,L-Octanoylcarnitine,Not Sex-Specific & Opposite Trend,GF Enriched
+M338T5_3,6-Hydroxy-5-methoxyindole glucuronide,Not Sex-Specific & Opposite Trend,GF Enriched
+M341T1_7,Sucrose (or Cellobiose),Not Sex-Specific & Opposite Trend,GF Enriched
+M344T1_3,N-(1-Deoxy-1-fructosyl)tyrosine,Not Sex-Specific & Opposite Trend,GF Enriched
+M351T1_4,_-L-Threo-4-Hex-4-enopyranuronosyl-D-galacturonate,Not Sex-Specific & Opposite Trend,GF Enriched
+M361T7_2,N-Oleoyl asparagine,Not Sex-Specific & Opposite Trend,GF Enriched
+M369T5_7,Androsterone sulfate,Not Sex-Specific & Opposite Trend,GF Enriched
+M370T8_3,trans-2-Tetradecenoyl-L-carnitine,Not Sex-Specific & Opposite Trend,GF Enriched
+M384T7_4,"3-Hydroxy-5, 8-tetradecadiencarnitine",Not Sex-Specific & Opposite Trend,GF Enriched
+M391T2_1,Serylvalylglycylglutamate,Not Sex-Specific & Opposite Trend,GF Enriched
+M429T5_3,N-Acetylserotonin glucuronide,Not Sex-Specific & Opposite Trend,GF Enriched
+M455T6_4,Sulfolithocholate,Not Sex-Specific & Opposite Trend,GF Enriched
+M648T8,SM(d18:1/12:0),Not Sex-Specific & Opposite Trend,GF Enriched
+M667T7_1,Glycogen,Not Sex-Specific & Opposite Trend,GF Enriched
+M135T1_6,L-Threonate,Not Sex-Specific & Opposite Trend,GF Enriched
+M141T1_5,N(5)-Methyl-L-glutamine,Not Sex-Specific & Opposite Trend,GF Enriched
+M144T1_4,4-Guanidinobutanoate,Not Sex-Specific & Opposite Trend,GF Enriched
+M177T7_1,"10-Hydroxy-2,8-decadiene-4,6-diynoate",Not Sex-Specific & Opposite Trend,GF Enriched
+M181T5_3,Coniferyl alcohol,Not Sex-Specific & Opposite Trend,GF Enriched
+M189T1_7,3-Dehydroquinate,Not Sex-Specific & Opposite Trend,GF Enriched
+M193T1_7,D-Glucuronate,Not Sex-Specific & Opposite Trend,GF Enriched
+M195T1_11,D-Gluconate,Not Sex-Specific & Opposite Trend,GF Enriched
+M203T1_11,Aspartyl-Alanine,Not Sex-Specific & Opposite Trend,GF Enriched
+M209T3_3,L-Kynurenine,Not Sex-Specific & Opposite Trend,GF Enriched
+M218T1_10,O-Succinyl-L-homoserine,Not Sex-Specific & Opposite Trend,GF Enriched
+M236T5_3,"Methyl 2,3-dihydro-3,5-dihydroxy-2-oxo-3-indoleacetate",Not Sex-Specific & Opposite Trend,GF Enriched
+M281T1_10,5-O-_-L-Arabinofuranosyl-L-arabinose,Not Sex-Specific & Opposite Trend,GF Enriched
+M284T2_1,Guanosine,Not Sex-Specific & Opposite Trend,GF Enriched
+M307T7_5,Capsiate,Not Sex-Specific & Opposite Trend,GF Enriched
+M330T8_4,9(S)-HPODE,Not Sex-Specific & Opposite Trend,GF Enriched
+M343T1_15,1-O-_-D-Glucopyranosyl-D-mannitol,Not Sex-Specific & Opposite Trend,GF Enriched
+M345T3_1,Salicylate _-D-glucoside,Not Sex-Specific & Opposite Trend,GF Enriched
+M365T4_3,2'-_-Mannosyl-L-tryptophan,Not Sex-Specific & Opposite Trend,GF Enriched
+M498T8_2,Taurochenodeoxycholate,Not Sex-Specific & Opposite Trend,GF Enriched
+M85T1_2,2-Ketobutyrate,Not Sex-Specific & Opposite Trend,GF Enriched
+M133T5,Phenylglyoxal,Not Sex-Specific & Opposite Trend,GF Enriched
+M156T1_11,L-Histidine,Not Sex-Specific & Opposite Trend,GF Enriched
+M156T1_7,Hydroxyvalerylglycine,Not Sex-Specific & Opposite Trend,GF Enriched
+M185T1_7,Pyroglutamylglycine,Not Sex-Specific & Opposite Trend,GF Enriched
+M187T2_4,Alanyl-Proline,Not Sex-Specific & Opposite Trend,GF Enriched
+M209T1_7,D-Altro-D-manno-Heptose,Not Sex-Specific & Opposite Trend,GF Enriched
+M227T4_10,4-Hydroxyphenylacetylglycine,Not Sex-Specific & Opposite Trend,GF Enriched
+M244T1_11,Cytidine,Not Sex-Specific & Opposite Trend,GF Enriched
+M260T1_10,Dihydromaleimide _-D-glucoside,Not Sex-Specific & Opposite Trend,GF Enriched
+M267T7_3,Ipomeamaronol,Not Sex-Specific & Opposite Trend,GF Enriched
+M289T5_2,4-Hydroxy-5-(4'-hydroxyphenyl)-valerate-4'-O-sulfate,Not Sex-Specific & Opposite Trend,GF Enriched
+M290T2_1,Deoxyguanosine (dG),Not Sex-Specific & Opposite Trend,GF Enriched
+M321T6_1,(+)-Equol 4'-sulfate,Not Sex-Specific & Opposite Trend,GF Enriched
+M332T5_3,"7,8-Dihydroneopterin 2'-phosphate",Not Sex-Specific & Opposite Trend,GF Enriched
+M366T6_1,Tyrosyl-Tryptophan,Not Sex-Specific & Opposite Trend,GF Enriched
+M103T2,2-Hydroxybutyrate,Not Sex-Specific & Opposite Trend,Other
+M110T1_6,3-Aminophenol,Not Sex-Specific & Opposite Trend,Other
+M122T1_1,Nicotinate,Not Sex-Specific & Opposite Trend,Other
+M162T1_10,L-Carnitine,Not Sex-Specific & Opposite Trend,Other
+M167T4_2,"3,4-Dihydroxybenzeneacetate (Homoprotocatechuate)",Not Sex-Specific & Opposite Trend,Other
+M182T1_10,L-Tyrosine,Not Sex-Specific & Opposite Trend,Other
+M209T6_1,"5-(3',4'-Dihydroxyphenyl)-_-valerolactone",Not Sex-Specific & Opposite Trend,Other
+M217T1_10,"N(3)-(4-Methoxyfumaroyl)-2,3-diaminopropionate",Not Sex-Specific & Opposite Trend,Other
+M219T2_3,Isoleucyl-Serine,Not Sex-Specific & Opposite Trend,Other
+M221T3_6,5-Hydroxy-L-tryptophan,Not Sex-Specific & Opposite Trend,Other
+M232T4_7,Butyrylcarnitine,Not Sex-Specific & Opposite Trend,Other
+M245T1_14,Aspartyl-Leucine,Not Sex-Specific & Opposite Trend,Other
+M246T2_4,Prolylhydroxyproline,Not Sex-Specific & Opposite Trend,Other
+M253T2_4,Deoxyinosine (dI),Not Sex-Specific & Opposite Trend,Other
+M280T9_3,Linoleamide,Not Sex-Specific & Opposite Trend,Other
+M283T4_2,1-Methylinosine,Not Sex-Specific & Opposite Trend,Other
+M295T3_4,Aspartyl-tyrosine,Not Sex-Specific & Opposite Trend,Other
+M297T8_3,13(S)-HODE,Not Sex-Specific & Opposite Trend,Other
+M300T9_3,Palmitoyl ethanolamide,Not Sex-Specific & Opposite Trend,Other
+M318T4_7,Glycylprolylhydroxyproline,Not Sex-Specific & Opposite Trend,Other
+M391T9_1,"3_,12_-Dihydroxy-5_-cholanoate",Not Sex-Specific & Opposite Trend,Other

@@ -1,0 +1,59 @@
+id,name,group,updown
+M115T1_6,Fumarate,Female Only,CONV-R Enriched
+M117T1_6,Erythronate,Not Gender Specific,CONV-R Enriched
+M117T6,Caproate,Female Only,CONV-R Enriched
+M118T1_10,Betaine,Male Only,CONV-R Enriched
+M145T1_6,_-Ketoglutarate,Male Only,CONV-R Enriched
+M150T1_9,L-Methionine,Not Gender Specific,CONV-R Enriched
+M155T1_6,Orotate,Female Only,CONV-R Enriched
+M160T5,DL-2-Aminooctanoate,Male Only,CONV-R Enriched
+M163T6_2,Heptanoate,Male Only,CONV-R Enriched
+M173T1_7,Shikimate,Not Gender Specific,CONV-R Enriched
+M181T4_1,Hydroxyphenyllactate,Not Gender Specific,CONV-R Enriched
+M182T1_7,L-Tyrosine,Not Gender Specific,CONV-R Enriched
+M192T5_2,N-(2-Phenylacetyl)glycine,Not Gender Specific,CONV-R Enriched
+M197T1_4,4-Hydroxy-2-ketoglutarate,Female Only,CONV-R Enriched
+M199T1_5,D-Erythrose-4-phosphate,Male Only,CONV-R Enriched
+M204T6,Indole-3-lactate,Female Only,CONV-R Enriched
+M212T5,Indoxyl sulfate,Not Gender Specific,CONV-R Enriched
+M254T5,N-Acetylvanilalanine,Not Gender Specific,CONV-R Enriched
+M268T2_1,Adenosine,Not Gender Specific,CONV-R Enriched
+M298T4,5'-Deoxy-5'-methylthioadenosine,Female Only,CONV-R Enriched
+M303T9,Eicosapentaenoate,Female Only,CONV-R Enriched
+M308T1_5,L-Glutathione reduced (GSH),Male Only,CONV-R Enriched
+M317T8_2,Prostaglandin B2,Male Only,CONV-R Enriched
+M375T8_1,Prostaglandin E2,Male Only,CONV-R Enriched
+M385T1_3,S-(5'-Adenosyl)-L-homocysteine (SAH),Female Only,CONV-R Enriched
+M76T1_4,Trimethylamine N-oxide (TMAO),Not Gender Specific,CONV-R Enriched
+M89T4_2,Butyrate,Not Gender Specific,CONV-R Enriched
+M103T1_4,3-Hydroxybutyrate,Not Gender Specific,GF Enriched
+M103T2,2-Hydroxybutyrate,Female Only,GF Enriched
+M123T1_7,Nicotinamide,Male Only,GF Enriched
+M157T1_5,Allantoin,Not Gender Specific,GF Enriched
+M172T6_2,Hexanoylglycine,Not Gender Specific,GF Enriched
+M196T1_6,N-Acetylhistidine,Female Only,GF Enriched
+M206T5,"4-(2-Aminophenyl)-2,4-dioxobutanoate",Not Gender Specific,GF Enriched
+M215T1_7,N-_-Acetyl-L-arginine,Male Only,GF Enriched
+M227T2,2Õ-Deoxyuridine,Male Only,GF Enriched
+M227T4_2,Leucylproline,Female Only,GF Enriched
+M243T3_1,Thymidine,Male Only,GF Enriched
+M245T5,Leucyl-Isoleucine,Male Only,GF Enriched
+M248T1_5,Hydroxybutyrylcarnitine,Female Only,GF Enriched
+M258T4_2,Isoleucyl-Glutamine,Not Gender Specific,GF Enriched
+M347T7_3,Corticosterone,Not Gender Specific,GF Enriched
+M396T3,5-Taurinomethyl-2-thiouridine,Not Gender Specific,GF Enriched
+M103T1_2,3-Hydroxypyruvate,Not Gender Specific,Other
+M134T1_7,L-Aspartate,Not Gender Specific,Other
+M135T1_7,L-Threonate,Not Gender Specific,Other
+M136T1_6,Adenine,Not Gender Specific,Other
+M141T1_5,1-Methyl-4-imidazoleacetate,Not Gender Specific,Other
+M166T1_7,L-Methionine sulfoxide,Not Gender Specific,Other
+M189T1_9,N_-Acetyl-lysine,Not Gender Specific,Other
+M220T4_2,D-Pantothenate,Not Gender Specific,Other
+M269T2_1,Inosine,Not Gender Specific,Other
+M276T2,Glutarylcarnitine,Not Gender Specific,Other
+M280T9_2,Linoleamide,Not Gender Specific,Other
+M288T1_8,Ophthalmate,Not Gender Specific,Other
+M300T1_5,N-Acetyl-glucosamine-1-phosphate,Not Gender Specific,Other
+M310T1_3,N-Acetylneuraminate,Not Gender Specific,Other
+M568T8,"LysoPC(22:6(4Z,7Z,10Z,13Z,16Z,19Z))",Not Gender Specific,Other
