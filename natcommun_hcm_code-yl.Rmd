@@ -1,0 +1,737 @@
+---
+title: "NatCommun_hcm_codes-yl"
+author: "Yunjia Lai"
+date: "6/15/2021"
+---
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. 
+When executing code within the notebook, the results appear beneath the code. 
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Load all required packages and functions
+```{r}
+library("devtools")
+library("tidyverse")
+library("dplyr")
+library("readxl")
+library("ggplot2")
+library("ggpubr")
+library("ggsignif")
+library("ggthemes")
+library("RColorBrewer")
+library("FactoMineR")
+library("factoextra")
+library("wesanderson")
+library("randomForest")
+library("rfPermute")
+library("pheatmap")
+library("dendextend")
+library("webr")
+library("h2o")
+library("Retip")
+
+#Name: Look()
+```
+
+\pagebreak
+
+This Rmd script reproduces part of the figures in the Lai-NatCommun-2021 paper.
+
+Running originally with the following sessionInfo:
+
+R version 4.0.1 (2020-06-06)
+Platform: X86_64-apple-darwin17.0 (64-bit) or earlier
+Running under: macOS 10.16
+
+Matrix products: default
+LAPACK: /Library/Frameworks/R.framework/Versions/4.0/Resources/lib/libRlapack.dylib
+
+Random number generation:
+ RNG:     Mersenne-Twister 
+ Normal:  Inversion 
+ Sample:  Rounding 
+
+All rights reserved © Yunjia Lai
+
+> **Items**
+>
+> * Figure 2a-b & 5a-b. Principal component analysis of fecal ion features
+> * Figure 2e & 5e. Visualization of qMSEA results from Metaboanalyst 4.0
+> * Figure 3a, 6a & 7a. Variable Importance Plots for fecal, serum and brain metabolites
+> * Figure 3c-d, 4a-d & 7b. Box and Whisker plots for assessing group difference
+> * Figure 4g. Heatmap clustering of conjugated fecal metabolites
+> * Figure 8a-b. Analysis of Variance
+> * Figure 8f-h. PieDonut plot for visualizing gender-specificity of metabolites
+> * Code for retention time prediction (adapted from https://www.retip.app/; doi:10.1021/acs.analchem.9b05765)
+
+------
+~~~~~~~~~~~~~~~~~~~~~~ R codes for analysis and visualization ~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Figure 2a-b & 5a-b. Principal component analysis of fecal ion features
+
+```{r}
+# function for pareto scaling of raw metabolomic alignment table
+pareto_scaling <- function(x){
+        (x - mean(x)) / sqrt(sd(x))
+}
+# -------------- #
+#   fecal ESI+   #
+# -------------- #
+fecPos <- read.csv("raw4Trans_fec_pos.csv")
+samplename_fecpos <- read.csv("samplename_fecpos.csv")
+rownames(fecPos) <- as.vector(samplename_fecpos$fec_pos)
+
+fecPos_pareto <- t(apply(fecPos, 1, pareto_scaling))
+write.csv(fecPos_pareto,"fecPos_pareto.csv") # check if pareto scaling succeeded
+cG_fecPosAll_1 <- read.csv("fecPos_pareto_1_part1.csv")
+cG_fecPosAll_2 <- read.csv("fecPos_pareto_1_part2.csv") # total feature# exceeded maximum# allowed in MS Excel
+cG_fecPosAll <- cbind(cG_fecPosAll_1, cG_fecPosAll_2)
+str(cG_fecPosAll)
+cG_fecPosAll[,17387] # 17387 * column for designating Group: CONV-R or GF
+cG_fecPosAll$Group
+
+# Compute for PCA of 17,386 ion features in total for feces-ESI+
+cG_fecPosAll.pca = PCA(cG_fecPosAll[,-17387], graph = FALSE)
+
+# PCA_score plot - feces Pos
+tiff('cG_fec_PCA_score.tiff', units="in", width=4.7, height=4, res=300, compression = 'lzw')
+fviz_pca_ind(cG_fecPosAll.pca,
+             geom.ind = "point", # show points only (nbut not "text")
+             fill.ind = cG_fecPosAll$Group, # color by groups
+             col.ind = "black",
+             pointshape = 21, pointsize = 1.5,
+             palette = "jco",
+             addEllipses = TRUE, # Concentration ellipses
+             ggtheme = theme_gray(),
+             legend.title = "Groups",
+             title = "Fecal metabolome ESI+",
+             legend="right",
+             font.legend = 9)
+dev.off()
+
+# PCA_scree plot - feces Pos
+tiff('cG_fec_PCA_scree.tiff', units="in", width=4, height=3, res=300, compression = 'lzw')
+fviz_eig(cG_fecPosAll.pca,
+         addlabels = TRUE, ylim = c(0, 39),
+         title = "Fecal metabolome ESI+")
+dev.off()
+
+# -------------- #
+#   serum ESI+   #
+# -------------- #
+serPos <- read.csv("raw4Trans_ser_pos.csv")
+samplename_serpos <- read.csv("samplename_serpos.csv")
+rownames(serPos) <- as.vector(samplename_serpos$ser_pos)
+
+serPos_pareto <- t(apply(serPos, 1, pareto_scaling))
+write.csv(serPos_pareto,"serPos_pareto.csv") # # check if pareto scaling succeeded
+cG_serPosAll <- read.csv("serPos_pareto_1.csv")
+str(cG_serPosAll)
+cG_serPosAll[,10013]
+cG_serPosAll$Group
+
+# Compute for PCA of 10,012 ion features in total for feces-ESI+
+cG_serPosAll.pca = PCA(cG_serPosAll[,-10013], graph = FALSE)
+
+# PCA_score plot - feces Pos
+tiff('cG_ser_PCA_score_P.tiff', units="in", width=4.7, height=4, res=300, compression = 'lzw')
+fviz_pca_ind(cG_serPosAll.pca,
+             geom.ind = "point", # show points only (nbut not "text")
+             fill.ind = cG_serPosAll$Group, # color by groups
+             col.ind = "black",
+             pointshape = 21, pointsize = 1.5,
+             palette = "jco",
+             addEllipses = TRUE, # Concentration ellipses
+             ggtheme = theme_gray(),
+             legend.title = "Groups",
+             title = "Serum metabolome ESI+",
+             legend="right",
+             font.legend = 9)
+dev.off()
+
+# PCA_scree plot - feces Pos
+tiff('cG_ser_PCA_scree_P.tiff', units="in", width=4, height=3, res=300, compression = 'lzw')
+fviz_eig(cG_serPosAll.pca,
+         addlabels = TRUE, ylim = c(0, 26),
+         title = "Serum metabolome ESI+")
+dev.off()
+
+```
+
+# Figure 2e & 5e. Visualization of qMSEA results from Metaboanalyst 4.0
+
+```{r}
+library(readxl)
+# ------------- #
+#  fecal qMSEA  #
+# ------------- #
+cG_enrich_fec <- read_excel("cG_enrichment_feces_top50.xlsx")
+cG_enrich_fec$nlogp <- -log10(cG_enrich_fec$pvalue)
+cG_enrich_fec$nlogp
+str(cG_enrich_fec)
+cG_msea_fec <- ggplot(data=cG_enrich_fec,aes(x=reorder(item,-pvalue),y=enrichfold,fill=nlogp))+
+        geom_bar(stat = "identity",
+                 color = "yellow",
+                 width = 0.8,
+                 size = 0.05)+
+        scale_fill_gradient2(low = "#FFFDE7", mid = "#FFB74D", high = "#D32F2F", midpoint = 9)+
+        labs(title = "Fecal metabolite sets enrichment",
+             x="Metabolic pathways",
+             y="Fold of pathway enrichment")+
+        coord_flip()+
+        theme_linedraw()+
+        theme(axis.title.x = element_text(size = 12, face = "bold"),
+              axis.title.y = element_text(size = 12, face = "bold"),
+              axis.text.x = element_text(size = 12),
+              axis.text.y = element_text(size = 10),
+              axis.ticks = element_blank())+
+        theme(legend.background = element_rect(
+                fill = "white",
+                color = "black",
+                size = 0.4),
+              legend.position = c(0.9,0.12),
+              legend.text = element_text(face = "bold",size = 8),
+              legend.title = element_text(face = "bold",size = 9))+
+        labs(fill = "-log(pvalue)")
+cG_msea_fec
+
+ggsave("cG_msea_fec_1.tiff", units="in", width=9, height=8, dpi=600, compression = 'lzw')
+
+# ------------- #
+#  serum qMSEA  #
+# ------------- #
+cG_enrich_ser <- read_excel("cG_enrichment_serum_top50.xlsx")
+cG_enrich_ser$nlogp <- -log10(cG_enrich_ser$pvalue)
+cG_enrich_ser$nlogp
+str(cG_enrich_ser)
+cG_msea_ser <- ggplot(data=cG_enrich_ser,aes(x=reorder(item,-pvalue),y=enrichfold,fill=nlogp))+
+        geom_bar(stat = "identity",
+                 color = "yellow",
+                 width = 0.8,
+                 size = 0.05)+
+        scale_fill_gradient2(low = "#FFFDE7", mid = "#FFB74D", high = "#D32F2F", midpoint = 2)+
+        labs(title = "Serum metabolite sets enrichment",
+             x="Metabolic pathways",
+             y="Fold of pathway enrichment")+
+        coord_flip()+
+        theme_linedraw()+
+        theme(axis.title.x = element_text(size = 12, face = "bold"),
+              axis.title.y = element_text(size = 12, face = "bold"),
+              axis.text.x = element_text(size = 12),
+              axis.text.y = element_text(size = 10),
+              axis.ticks = element_blank())+
+        theme(legend.background = element_rect(
+                fill = "white",
+                color = "black",
+                size = 0.4),
+              legend.position = c(0.9,0.12),
+              legend.text = element_text(face = "bold",size = 8),
+              legend.title = element_text(face = "bold",size = 9))+
+        labs(fill = "-log(pvalue)")
+cG_msea_ser
+
+ggsave("cG_msea_ser_1.tiff", units="in", width=9, height=8, dpi=600, compression = 'lzw')
+
+```
+
+## Figure 3a, 6a & 7a. Variable Importance Plots for fecal, serum, and brain metabolites
+
+```{r}
+library(ggplot2)
+library(readxl)
+library(randomForest)
+library(rfPermute)
+library(ggthemes)
+library(tidyverse)
+# ----------- #
+#  fecal VIP  #
+# ----------- #
+vip_fecCID <- read.csv("vip_fecesCID.csv")
+vip_rownames <- c("Conv_M1","Conv_M2","Conv_M3","Conv_M4","Conv_M5","Conv_M6",
+                  "Conv_F1","Conv_F2","Conv_F3","Conv_F4","Conv_F5","Conv_F6",
+                  "GF_F1","GF_F2","GF_F3","GF_F4","GF_F5","GF_F6",
+                  "GF_M1","GF_M2","GF_M3","GF_M4","GF_M5","GF_M6")
+rownames(vip_fecCID) <- vip_rownames
+head(vip_fecCID,3)
+str(vip_fecCID)
+library("randomForest","rfPermute")
+
+set.seed(2020)
+rf_out_fecCID <- randomForest(as.factor(Group) ~ ., data = vip_fecCID)
+plot(rf_out_fecCID)
+rf_out_fecCID
+
+# Extracts variable importance (Mean Decrease in Gini Index)
+# Sorts by variable importance and relevels factors to match ordering
+var_imp_fec <- tibble(variable=setdiff(colnames(vip_fecCID), "Group"),
+                          importance=as.vector(importance(rf_out_fecCID)))
+var_imp_fec <- arrange(var_imp_fec, desc(importance))
+var_imp_fec$variable <- factor(var_imp_fec$variable, levels=var_imp_fec$variable)
+write.csv(var_imp_fec,"var_imp_fec_new.csv")
+
+var_imp_fec_top50 <- read_excel("var_imp_fec_top50.xlsx")
+str(var_imp_fec_top50)
+
+# nlogp <- -log10(var_imp_fec_top50$pvalue)
+# var_imp_fec_top50$nlogp <- nlogp
+
+vip_fec_bar <- ggplot(data=var_imp_fec_top50,aes(x=reorder(variable,importance),y=importance,fill=updown))+
+        geom_bar(stat = "identity",
+                 color = "white",
+                 width = 0.6,
+                 size = 0)+
+        scale_fill_manual(values=c("#76BA1B", "#F1948A"))+
+        labs(title = "Variable importance plot of fecal metabolome",
+             x="Fecal metabolite variables \n top 50 out of 533",
+             y="Mean decrease in Gini index")+
+        coord_flip()+
+        theme_linedraw()+
+        theme(axis.title.x = element_text(size = 12, face = "bold"),
+              axis.title.y = element_text(size = 12, face = "bold"),
+              axis.text.x = element_text(size = 12),
+              axis.text.y = element_text(size = 10),
+              axis.ticks = element_blank())+
+        theme(legend.background = element_rect(
+                fill = "white",
+                color = "black",
+                size = 0.5),
+              legend.position = c(0.78,0.12),
+              legend.text = element_text(face = "bold",size = 11),
+              legend.title = element_text(face = "bold",size = 12))+
+        labs(fill = "Fecal metabolites")
+vip_fec_bar
+
+ggsave("vip_fec_3.tiff", units="in", width=8, height=7.6, dpi=300, compression = 'lzw')
+
+# ----------- #
+#  serum VIP  #
+# ----------- #
+vip_ser_bar <- ggplot(data=var_imp_ser_top50,aes(x=reorder(variable,importance),y=importance,fill=updown))+
+        geom_bar(stat = "identity",
+                 color = "white",
+                 width = 0.6,
+                 size = 0)+
+        theme_minimal()+
+        scale_fill_manual(values=c("#76BA1B", "#F1948A"))+
+        labs(title = "Variable importance plot of serum metabolome",
+             x="Serum metabolite variables \n top 50 out of 231",
+             y="Mean decrease in Gini index")+
+        coord_flip()+
+        theme_linedraw()+
+        theme(axis.title.x = element_text(size = 12, face = "bold"),
+              axis.title.y = element_text(size = 12, face = "bold"),
+              axis.text.x = element_text(size = 12),
+              axis.text.y = element_text(size = 10),
+              axis.ticks = element_blank())+
+        theme(legend.background = element_rect(
+                fill = "white",
+                color = "black",
+                size = 0.5),
+              legend.position = c(0.78,0.12),
+              legend.text = element_text(face = "bold",size = 11),
+              legend.title = element_text(face = "bold",size = 12))+
+        labs(fill = "Serum metabolites")
+vip_ser_bar
+
+ggsave("vip_ser_1.tiff", units="in", width=8, height=7.6, dpi=300, compression = 'lzw')
+
+# ----------- #
+#  brain VIP  #
+# ----------- #
+vip_brnCID <- read.csv("vip_brainCID.csv")
+vip_rownames <- c("Conv_M1","Conv_M2","Conv_M3","Conv_M4","Conv_M5","Conv_M6",
+                  "Conv_F1","Conv_F2","Conv_F3","Conv_F4","Conv_F5","Conv_F6",
+                  "GF_F1","GF_F2","GF_F3","GF_F4","GF_F5","GF_F6",
+                  "GF_M1","GF_M2","GF_M3","GF_M4","GF_M5","GF_M6")
+rownames(vip_brnCID) <- vip_rownames
+head(vip_brnCID,3)
+str(vip_brnCID)
+
+set.seed(2020)
+rf_out_brnCID <- randomForest(as.factor(Group) ~ ., data = vip_brnCID)
+# Extracts variable importance (Mean Decrease in Gini Index)
+# Sorts by variable importance and relevels factors to match ordering
+var_imp_brn <- tibble(variable=setdiff(colnames(vip_brnCID), "Group"),
+                          importance=as.vector(importance(rf_out_brnCID)))
+var_imp_brn <- arrange(var_imp_brn, desc(importance))
+var_imp_brn$variable <- factor(var_imp_brn$variable, levels=var_imp_brn$variable)
+write.csv(var_imp_brn,"var_imp_brn.csv")
+
+var_imp_brn_top50 <- read_excel("var_imp_brn_top50.xlsx")
+str(var_imp_brn_top50)
+
+# nlogp <- -log10(var_imp_brn_top50$pvalue)
+# var_imp_brn_top50$nlogp <- nlogp
+
+vip_brn_bar <- ggplot(data=var_imp_brn_top50,aes(x=reorder(variable,importance),y=importance,fill=updown))+
+        geom_bar(stat = "identity",
+                 color = "white",
+                 width = 0.6,
+                 size = 0)+
+        theme_minimal()+
+        scale_fill_manual(values=c("#76BA1B", "#F1948A"))+
+        labs(title = "Variable importance plot of brain metabolome",
+             x="Brain metabolite variables \n top 50 out of 58",
+             y="Mean decrease in Gini index")+
+        coord_flip()+
+        theme_linedraw()+
+        theme(axis.title.x = element_text(size = 12, face = "bold"),
+              axis.title.y = element_text(size = 12, face = "bold"),
+              axis.text.x = element_text(size = 11),
+              axis.text.y = element_text(size = 10),
+              axis.ticks = element_blank())+
+        theme(legend.background = element_rect(
+                fill = "white",
+                color = "black",
+                size = 0.5),
+              legend.position = c(0.8,0.77),
+              legend.text = element_text(face = "bold",size = 11),
+              legend.title = element_text(face = "bold",size = 12))+
+        labs(fill = "Brain metabolites")
+vip_brn_bar
+
+ggsave("vip_brn_2.tiff", units="in", width=8, height=7.6, dpi=600, compression = 'lzw')
+
+### for additional assessment of the random forest model
+rfPermute(as.factor(Group) ~ ., data = vip_fecCID, importance = TRUE, nrep = 1000)
+rfPermute(as.factor(Group) ~ ., data = vip_serCID, importance = TRUE, nrep = 1000)
+rfPermute(as.factor(Group) ~ ., data = vip_brnCID, importance = TRUE, nrep = 1000)
+
+```
+
+## Figure 3c-d, 4a-d & 7b. Box and Whisker plots for assessing group difference
+
+```{r}
+# using fecal neurotransmitters for a showcase
+library(ggplot2)
+library(ggpubr)
+library(ggsignif)
+ind_fec_neu <- read.csv("bp_feces_neurotransmitters.csv")
+Start = 5
+Stop = 23
+gvec <- vector("list",length = length(Start:Stop))
+for(i in Start:Stop){
+        batch_neu <- ggplot(data = ind_fec_neu, 
+                            aes_string(x="group",y=names(ind_fec_neu)[i], fill="group"))+
+                scale_fill_manual(values = c("#0073C299","#EFC00099"))+
+                geom_jitter(size = 2.7)+
+                geom_boxplot(size=1.5, alpha=.6)+
+                xlab("")+
+                ylab("Peak intensity")+
+                theme_classic(
+                        base_size = 30
+                )+
+                theme(legend.position = "none")+
+                geom_signif(comparisons = list(c("CONV-R","GF")),
+                            test = "t.test",  # Welch's t-test
+                            test.args = list(alternative = "two.sided",var.equal=FALSE, paired=FALSE),
+                            map_signif_level = TRUE,
+                            textsize = 10,
+                            vjust = 0.67)+
+                scale_y_continuous(labels=function(y) format(y,scientific=TRUE))+
+                theme(axis.title.y = element_text(size = 22),
+                      axis.text.x = element_text(size = 18, face = "bold", color = "black",vjust = -0.3),
+                      axis.text.y = element_text(size = 16, color = "black", face = "bold"))
+        ggsave(batch_neu, file = paste0("plot_",colnames(ind_fec_neu)[i],".tiff"),
+               units="in", width=3.6, height=5.5, dpi=300, compression = 'lzw')
+        gvec[[i-Start+1]] <- batch_neu
+}
+
+```
+
+## Figure 4g. Heatmap clustering of conjugated fecal metabolites
+
+```{r}
+library("pheatmap")
+library("dendextend")
+library("RColorBrewer")
+library("pheatmap")
+library("dendextend")
+library("RColorBrewer")
+
+# scale before heatmap clustering
+cal_z_score <- function(x){
+        (x - mean(x)) / sd(x)
+}
+
+fec_conj <- read.csv("cG_pheatmap_fec_conjugates copy.csv")
+fec_conj_num <- read.csv("cG_pheatmap_fec_conjugates_1 copy.csv")
+type <- c(rep("glucuronide",13),rep("sulfate",20))
+sample <- c(rep("Conv",12),rep("GF",12))
+fecPhase <- fec_conj_num 
+rownames(fecPhase) <- as.vector(fec_conj$X)
+
+fecPhase_norm <- t(apply(fecPhase, 1, cal_z_score))
+fecPhase_samplerow <- data.frame(sample)
+fecPhase_typecol <- data.frame(type)
+
+row.names(fecPhase_samplerow) <- colnames(fecPhase)
+row.names(fecPhase_typecol) <- rownames(fecPhase)
+ann_colors <- list(sample = c(Conv = "#0073C299",GF = "#EFC00099"), 
+                   type = c(glucuronide = "#CCD1D1", sulfate = "#D2B4DE"))
+fecPhase_pheatmap <- pheatmap(fecPhase_norm,
+                               color = colorRampPalette(c("navy", "#FEF9E7", "firebrick3"))(500),
+                               annotation_col = fecPhase_samplerow,
+                               annotation_row = fecPhase_typecol,
+                               cutree_cols = 2,
+                               cutree_rows = 2,
+                               border_color = "black",
+                               fontsize_row = 8,
+                               fontsize_col = 7,
+                               annotation_colors = ann_colors
+)
+
+save_pheatmap_png <- function(x, filename, width=5000, height=3600, res = 600) {
+        png(filename, width = width, height = height, res = res)
+        grid::grid.newpage()
+        grid::grid.draw(x$gtable)
+        dev.off()
+}
+
+save_pheatmap_png(fecPhase_pheatmap, "fecPhase_pheatmap.png")
+
+```
+
+## Figure 8a-b. Analysis of Variance
+
+```{r}
+# using feces ESI(-) data for a showcase
+
+# Step 1. Data transformation: Pareto scaling followed by log10 transformation
+# write up my functions
+pareto_scaling <- function(x){
+        (x - mean(x)) / sqrt(sd(x))
+}
+
+log_transf <- function(x){
+        log10(x+abs(min(x))+1.1)
+}
+
+fecNeg <- read.csv("raw4Trans_fec_neg.csv")
+samplename_fecneg <- read.csv("samplename_fecneg.csv")
+rownames(fecNeg) <- as.vector(samplename_fecneg$fec_neg)
+fecNeg_pareto <- t(apply(fecNeg, 1, pareto_scaling))
+write.csv(fecNeg_pareto,"fecNeg_pareto.csv")
+
+fecNeg_pareto_log10 <- t(apply(fecNeg_pareto,1,log_transf))
+write.csv(fecNeg_pareto_log10,"fecNeg_pareto_log10.csv")
+
+# Step 2. Compute two-way ANOVA
+gender0 <- rep(c("male","female"), each = 6)
+gender1 <- rep(c("female","male"), each = 6)
+gender <- c(gender0,gender1)
+gender
+
+group <- rep(c("CONV-R","GF"), each = 12)
+group
+
+# transpose the data --> make column feature, row as factor
+p_fecNeg <- as.data.frame(t(fecNeg_pareto_log10))
+
+# Perform NA Imputation if there are any
+any(is.na(p_fecNeg))
+
+# attach factor information
+p_fecNeg$gender <- gender
+p_fecNeg$group <- group
+
+# two-way ANOVA
+#----------------------------
+# use p_fecPos as an example
+# check the matrices for ANOVA computation
+library(tidyverse)
+library(ggpubr)
+library(rstatix)
+# try just one feature first; see this will work
+class(p_fecPos)
+str(p_fecPos)
+colnames(p_fecPos)
+aov_fecPos <- p_fecPos %>% anova_test(M100T0_1 ~ gender * group)
+aov_fecPos
+
+colnames(p_fecPos)[[4801]]
+aov_fecPos <- p_fecPos %>% anova_test(M198T1_5 ~ gender * group)
+aov_fecPos
+
+str(aov_fecPos)
+
+# two-way ANOVA (batch mode)
+# I want to save all the files first to learn the data structure and dimension
+write.csv(p_fecNeg,"p_fecNeg.csv")
+write.csv(t(p_fecNeg),"p_fecNeg_t.csv")
+
+# minus 2 get total feature number
+dim(p_fecNeg) #--- 15262
+
+# p_fecNeg ANOVA test one feature to see if this works
+aov_fecNeg <- p_fecNeg %>% anova_test(M100T11_2 ~ gender * group)
+
+# batch mode - divide & conquer to avoid system crash
+#------------------# 
+for (i in 1:3000){
+        feature_id <- colnames(p_fecNeg)[[i]]
+        aov_fecNeg[[i]] <- p_fecNeg %>% anova_test(eval(as.symbol(feature_id)) ~ gender * group)
+        aov_output_fecNeg$dataMatrix <- do.call(rbind, aov_fecNeg)
+} 
+write.csv(aov_output_fecNeg$dataMatrix, "aov_output_fecNeg_1to3000.csv")
+
+aov_fecNeg <- p_fecNeg %>% anova_test(M100T11_2 ~ gender * group)
+for (i in 3001:6000){
+        feature_id <- colnames(p_fecNeg)[[i]]
+        aov_fecNeg[[i]] <- p_fecNeg %>% anova_test(eval(as.symbol(feature_id)) ~ gender * group)
+        aov_output_fecNeg$dataMatrix <- do.call(rbind, aov_fecNeg)
+} 
+write.csv(aov_output_fecNeg$dataMatrix, "aov_output_fecNeg_3001to6000.csv")
+
+aov_fecNeg <- p_fecNeg %>% anova_test(M100T11_2 ~ gender * group)
+for (i in 6001:9000){
+        feature_id <- colnames(p_fecNeg)[[i]]
+        aov_fecNeg[[i]] <- p_fecNeg %>% anova_test(eval(as.symbol(feature_id)) ~ gender * group)
+        aov_output_fecNeg$dataMatrix <- do.call(rbind, aov_fecNeg)
+} 
+write.csv(aov_output_fecNeg$dataMatrix, "aov_output_fecNeg_6001to9000.csv")
+
+aov_fecNeg <- p_fecNeg %>% anova_test(M100T11_2 ~ gender * group)
+for (i in 9001:12000){
+        feature_id <- colnames(p_fecNeg)[[i]]
+        aov_fecNeg[[i]] <- p_fecNeg %>% anova_test(eval(as.symbol(feature_id)) ~ gender * group)
+        aov_output_fecNeg$dataMatrix <- do.call(rbind, aov_fecNeg)
+}
+write.csv(aov_output_fecNeg$dataMatrix, "aov_output_fecNeg_9001to12000.csv")
+
+aov_fecNeg <- p_fecNeg %>% anova_test(M100T11_2 ~ gender * group)
+str(aov_fecNeg)
+for (i in 12001:15262){
+        feature_id <- colnames(p_fecNeg)[[i]]
+        aov_fecNeg[[i]] <- p_fecNeg %>% anova_test(eval(as.symbol(feature_id)) ~ gender * group)
+        aov_output_fecNeg$dataMatrix <- do.call(rbind, aov_fecNeg)
+} 
+write.csv(aov_output_fecNeg$dataMatrix, "aov_output_fecNeg_12001to15262.csv")
+
+# feature name X3 for aov results --> can do it in MS Excel spreadsheet
+featurename_p_fecNeg <- colnames(p_fecNeg)
+featurename_p_fecNeg_aov <- rep(featurename_p_fecNeg, each = 3)
+write.csv(featurename_p_fecNeg_aov, "featurenameX3_p_fecNeg_aov.csv")
+
+```
+
+## Figure 8f-h. PieDonut plot for visualizing gender-specificity of metabolites
+
+```{r}
+library(ggplot2)
+library(moonBook)
+library(webr)
+# ---------------- #
+#  fecal PieDonut  #
+# ---------------- #
+Gender_fec <- read.csv("cG_gender_feces.csv")
+pie_fec <- PieDonut(Gender_fec, aes(pies=group, donuts = updown),
+                    color = "white",
+                    pieAlpha = 0.9,
+                    r0 = 0.2,
+                    showRatioThreshold = 0.01,
+                    start=pi/1.275,
+                    selected = c(1,3),
+                    explodeDonut = TRUE,
+                    labelposition = 0,
+                    pieLabelSize = 5.2,
+                    donutLabelSize = 4,
+                    showPieName = FALSE,
+                    showDonutName = FALSE
+)
+
+# ---------------- #
+#  serum PieDonut  #
+# ---------------- #
+Gender_ser <- read.csv("cG_gender_serum.csv")
+pie_ser <- PieDonut(Gender_ser, aes(pies=group, donuts = updown),
+                    color = "white",
+                    pieAlpha = 0.9,
+                    r0 = 0.2,
+                    showRatioThreshold = 0.01,
+                    start=pi/1.65,
+                    selected = c(1,3),
+                    explodeDonut = TRUE,
+                    labelposition = 0,
+                    pieLabelSize = 5.2,
+                    donutLabelSize = 4,
+                    showPieName = FALSE,
+                    showDonutName = FALSE
+)
+
+# ---------------- #
+#  brain PieDonut  #
+# ---------------- #
+Gender_brn <- read.csv("cG_gender_brain.csv")
+pie_brn <- PieDonut(Gender_brn, aes(pies=group, donuts = updown),
+                    color = "white",
+                    pieAlpha = 0.9,
+                    r0 = 0.2,
+                    showRatioThreshold = 0.01,
+                    start=pi/1.58,
+                    selected = c(1,3),
+                    explodeDonut = TRUE,
+                    labelposition = 0,
+                    pieLabelSize = 5.2,
+                    donutLabelSize = 4,
+                    showPieName = FALSE,
+                    showDonutName = FALSE
+)
+
+```
+
+## Code for retention time prediction 
+## adapted from https://www.retip.app/; Bonini et al., doi:10.1021/acs.analchem.9b05765
+
+```{r}
+library(devtools)
+library(Retip)
+library(readxl)
+library(tidyverse)
+library(randomForest)
+
+#>Starts parallel computing
+# multicore = FALSE
+cl <- parallel::makeCluster(2, setup_strategy = "sequential")
+## WORKAROUND: https://github.com/rstudio/rstudio/issues/6692
+## Revert to 'sequential' setup of PSOCK cluster in RStudio Console on macOS and R 4.0.0
+if (Sys.getenv("RSTUDIO") == "1" && !nzchar(Sys.getenv("RSTUDIO_TERM")) && 
+    Sys.info()["sysname"] == "Darwin" && getRversion() >= "4.0.0") {
+        parallel:::setDefaultClusterOptions(setup_strategy = "sequential")
+}
+
+prep.wizard()
+
+# import excel file for training and testing data
+T3 <- readxl::read_excel("_t3_rt_all.xlsx", col_types = c("text","text","text","numeric"))
+
+#> Calculate Chemical Descriptors from CDK
+T3_descs <- getCD(T3)
+
+#> Clean dataset from NA and low variance value
+T3_db_rt <- proc.data(T3_descs)
+
+#> Split in training and testing using caret::createDataPartition
+set.seed(101)
+T3_inTraining <- caret::createDataPartition(T3_db_rt$XLogP, p=.8, list = FALSE)
+T3_training <- T3_db_rt[ T3_inTraining,]
+T3_testing  <- T3_db_rt[-T3_inTraining,]
+
+#> Train models
+T3_rf  <- fit.rf(T3_training)
+
+#> Save models
+saveRDS(T3_rf, "T3_rf.rds")
+
+#> Test & plot models
+p.model(T3_testing, m=T3_rf,title = "T3:random forest")
+
+#> Predict retention time for MS-FINDER structure candidates, using feces POS for a showcase
+T3_box1 <- readxl::read_excel("zcG_feces_POS.xlsx",col_types = c("text","text","text"))
+T3_box_desc1 <- getCD(T3_box1)
+T3_pred1 <- RT.spell(T3_training,T3_box_desc1,model=T3_rf)
+write.csv(T3_pred1,"zcG_feces_POS_rf.csv")
+
+```
