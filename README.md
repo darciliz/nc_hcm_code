@@ -1,4 +1,4 @@
-# natcommun_hcm_code
+# nc_hcm_code
 This R script reproduces part of the figures in the NC-20-46888 manuscript (Lai et al., 2021). Should there be any questions or concerns please contact Yunjia directly at yunjia.lai [at] outlook.com.
 All rights reserved © Yunjia Lai
 
